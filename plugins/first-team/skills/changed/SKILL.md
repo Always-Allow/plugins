@@ -32,7 +32,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 ## Rules
 
-- Read only meetings and threads where at least one person on my First Team takes part: in a channel or an email, a message they wrote or a thread they replied in; in a meeting, they are on the invite or the notes show them speaking. Posts from bots and apps do not count. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there. A peer's work outside this company (their own business, other clients, a job search) stays out too, even when it comes up in a meeting we share.
+- Read only meetings and threads where at least one person on my First Team takes part: in a channel or an email, a message they wrote or a thread they replied in (in the shared channels named in the project instructions, my own posts count too, even when nobody replied); in a meeting, they are on the invite or the notes show them speaking. Posts from bots and apps do not count. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there. A peer's work outside this company (their own business, other clients, a job search) stays out too, even when it comes up in a meeting we share.
 - Measure what was said and done. Never score anyone's tone, mood, attitude or how engaged they seem.
 - A shift resting on a single meeting is a maybe, and the row should say so.
 - A change in a peer's work is a question I take to them, never a judgement about them.
