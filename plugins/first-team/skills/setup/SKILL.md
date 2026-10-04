@@ -15,7 +15,7 @@ Work these three out before step 1, then tell me what you found in one line so I
 
 1. **Who I am.** My role, my team and my manager, from my profile, my calendar and my messages. If you cannot tell, ask me in one question.
 2. **What you can actually reach.** Name the sources you can see (chat, email, calendar, meeting notes, documents) and the dates they cover. If you can reach none, say so and ask me to paste in my last month instead of guessing.
-3. **Where you can write.** Check which of these you can both create and edit pages in: Notion, or a folder on my computer. Only offer me the places you can actually do both in, because the refresh rewrites the same pages every week.
+3. **Where you can write.** Check which of these you can both create and edit pages in: Notion, Microsoft 365 (OneDrive or SharePoint), or a folder on my computer. Only offer me the places you can actually do both in, because the refresh rewrites the same pages every week.
 
 ## Steps
 
@@ -23,9 +23,12 @@ Work these three out before step 1, then tell me what you found in one line so I
 
 2. **Ask where the pages should live, and wait.** Offer only the places you checked you can write to:
    - **Notion:** a page called My First Team, one sub-page per person.
+   - **Microsoft 365:** a folder called My First Team in OneDrive or SharePoint, one file per person, named About NAME.md. If you can only edit Word documents there, use one Word document per person instead.
    - **A folder on my computer:** a folder called My First Team, one file per person, named About NAME.md.
 
-   If you can do neither, say so plainly, write the pages here in the chat for me to add to this project's files, and tell me that until I connect Notion or give you a folder, keeping them current is a job for me.
+   The first time you offer a .md file, explain it in one line: it is a plain text file, words with a few symbols for headings and bullet points, that any AI reads cleanly and any computer can open.
+
+   If you can write to none of them, say so plainly, write the pages here in the chat for me to add to this project's files, and tell me that until I connect Notion or Microsoft 365, or give you a folder, keeping them current is a job for me.
 
 3. **Write one page per person,** in this shape and nothing more:
    - **Their function, and what they own**

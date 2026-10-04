@@ -10,7 +10,7 @@ It comes from Getting Practical about AI, an Always Allow session held with Prim
 
 | Skill | What it does | What you get back |
 |---|---|---|
-| [Setup](skills/setup/SKILL.md) | Finds who is on your First Team and writes one page per person, in Notion or a folder on your computer | The pages, and the instructions to paste into your project |
+| [Setup](skills/setup/SKILL.md) | Finds who is on your First Team and writes one page per person, in Notion, Microsoft 365 or a folder on your computer | The pages, and the instructions to paste into your project |
 | [Refresh](skills/refresh/SKILL.md) | Rewrites each page from the last week, every Monday | My First Team this week: where the team's time went, what it talked about, where you overlap, and up to four things to do |
 | [Prep](skills/prep/SKILL.md) | Preps you for any meeting with your First Team | What each person is focused on, where your team can help, and what you said you would bring |
 | [Review](skills/review/SKILL.md) | Runs anything past your First Team before it goes out | One line per person for something short; each person's read and one list of changes for something finished |
@@ -18,6 +18,16 @@ It comes from Getting Practical about AI, an Always Allow session held with Prim
 | [Changed](skills/changed/SKILL.md) | Puts two months side by side | What shifted in what your First Team works on and talks about, and what to lead with next |
 
 Start with Setup. The others read the pages it writes.
+
+## What a .md file is, and why the pages use them
+
+A .md file (Markdown) is a plain text file: just words, with a few symbols for structure, like `#` for a heading and `-` for a bullet point. You can open one in any text editor, and it looks tidy in Notion, OneDrive and most AI tools.
+
+The pages use them for three reasons:
+
+- **Every AI reads them cleanly.** There is no formatting for it to work around, so it reads exactly what is on the page.
+- **They work everywhere.** The same file opens in Claude, ChatGPT, Notion, OneDrive or a folder on your computer, so you are never locked into one tool.
+- **They are easy to rewrite.** The Refresh skill changes the lines that moved each week without breaking the rest of the page.
 
 ## What they read, and what they leave alone
 
