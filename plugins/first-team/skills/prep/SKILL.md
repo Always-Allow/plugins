@@ -14,7 +14,7 @@ It gets me ready to walk into a meeting with my First Team already knowing what 
 Work these out before step 1, then tell me what you found in one line so I can correct you.
 
 1. **Which meeting.** The next leadership meeting or the next meeting with one peer, from my calendar, unless I name another. Say which one, when, and who is in it.
-2. **Their files.** Read each attendee's First Team file from where the Settings line in the project instructions says they are kept. If the files are older than a week, say so and suggest running the refresh skill first.
+2. **Their files.** Read each attendee's First Team file from where the Settings line in the project instructions says they are kept. If the files are past the update date the Settings line sets, say so and suggest running the refresh skill first.
 3. **What you can actually reach,** and the dates it covers.
 
 ## Steps
@@ -37,6 +37,6 @@ Work these out before step 1, then tell me what you found in one line so I can c
 - Prep is for me. Never send it, post it or add it to the invite.
 - Write "what I could see suggests" when you are reading between the lines, and turn it into a question for me to ask rather than a conclusion about them.
 - Never describe anyone's mood, attitude or motives.
-- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out direct messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
+- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out private messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
 - One file at most.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.

@@ -36,6 +36,6 @@ Work these out before step 1, then tell me what you found in one line so I can c
 - Measure what was said and done. Never score anyone's tone, mood, attitude or how engaged they seem.
 - A shift resting on a single meeting is a maybe, and the row should say so.
 - A change in a peer's work is a question I take to them, never a judgement about them.
-- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out direct messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
+- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out private messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
 - Never quote any of it into something I send, and never copy it into another project.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.

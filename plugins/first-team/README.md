@@ -2,7 +2,7 @@
 
 Your First Team is the most senior team you sit on: the leadership team, where each of you owns a function of the business. Not the people who report to you, and not everyone you work with. The idea is Patrick Lencioni's, from The Five Dysfunctions of a Team and The Advantage.
 
-This plugin keeps one file on each of your peers that stays current without you touching it, shows you the week across the whole team, and helps you bring the business above your function into everything you do with them.
+This plugin keeps one file on each of your peers that stays current on a schedule (where your tool can run one; otherwise one refresh a week by hand), measures where you started and where you are now, shows you the week across the whole team, and helps you bring the business above your function into everything you do with them.
 
 It comes from Getting Practical about AI, an Always Allow session held with Primary in October 2026.
 
@@ -12,7 +12,7 @@ It comes from Getting Practical about AI, an Always Allow session held with Prim
 |---|---|---|
 | [Setup](skills/setup/SKILL.md) | Runs in the first chat of a new project called My First Team and walks you through the rest, one step at a time | Instructions, memory and context set, and your First Team with what each person is working on |
 | [Files](skills/files/SKILL.md) | Takes your baseline, then turns that answer into one file per person, in Notion, OneDrive or SharePoint, a folder on your computer, or Google Drive, and sets how often they update | Your baseline and where you start, the files, your first weekly dashboard, and the schedule |
-| [Refresh](skills/refresh/SKILL.md) | Builds the weekly dashboard every Monday (an artifact in Claude, a site in ChatGPT), and updates each file on the schedule you chose | My First Team this week: where you started and where you are now, what the business needs, where the team's time and talk went, your team's blockers as asks, and up to four things to do |
+| [Refresh](skills/refresh/SKILL.md) | Builds the weekly dashboard every Monday (an artifact in Claude, a site in ChatGPT), and updates each file on the schedule you chose | My First Team this week: where you started and where you are now, what the business needs, the meetings and threads you could see across the team, your team's blockers as asks, and up to four things to do |
 | [Prep](skills/prep/SKILL.md) | Preps you for any meeting with your First Team | What each person is focused on, where your team can help, and what you said you would bring |
 | [Review](skills/review/SKILL.md) | Runs anything past your First Team before it goes out | One line per person for something short; each person's read and one list of changes for something finished |
 | [Feedback](skills/feedback/SKILL.md) | Feedback for you on how you work as a First Team member this month | Where you showed up for your peers and where you fell short, with the evidence, and a draft of what to say |
