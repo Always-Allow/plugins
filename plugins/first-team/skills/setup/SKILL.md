@@ -47,8 +47,15 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    - **Claude:** on the project page, Memory, then View, and switch off "Use account memory".
 
 3. **Add the leadership team's own material,** so every chat starts from it: the leadership team's folder, the rolling agenda or meeting notes doc, the plan for the quarter.
-   - **ChatGPT:** the same way as the instructions: in the sidebar, the ··· menu on My First Team, then Project settings, then Add next to Available sources. ChatGPT can also take one Slack channel by its link, so add the leadership team's channel if there is one. Then Save.
-   - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a single Slack channel here, so add the channel's name to the instructions instead: "Read #leadership in Slack before you answer." Check the channel name against the channels I am in before suggesting it. If the Slack connection lists channels but cannot read their messages, say so plainly.
+   - **ChatGPT:** the same way as the instructions: in the sidebar, the ··· menu on My First Team, then Project settings, then Add next to Available sources. ChatGPT can also take Slack channels by their links; the chat channels below go in here. Then Save.
+   - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a Slack channel here, so the chat channels below go into the instructions instead. Check each channel name against the channels I am in before suggesting it. If the Slack connection lists channels but cannot read their messages, say so plainly.
+
+   **Chat channels (Slack or Teams).** The leadership channel alone gives a thin view. Look at the public channels I am in and propose a short list, grouped, for me to confirm:
+   - the leadership or exec channel, if there is one;
+   - each First Team member's own team or topic channel (their function's channel, for example #sales or #product);
+   - where results get posted: wins, launches, announcements;
+   - where customers' voices land: customer feedback, support escalations, churn or renewals.
+   Public channels only, never private ones or direct messages. Five to eight channels is plenty; if a group has no channel, say so and move on. Once I confirm, add them the tool's way: in ChatGPT, one Slack source per channel by its link (Project settings, then Add); in Claude, one line in the instructions, for example "Read #leadership, #sales, #product, #wins and #customer-feedback in Slack before you answer." The 7 day reading window covers all of them.
 
    Also check the apps my work lives in are connected (chat, email, calendar, meeting notes). Each one is optional, and the more I connect, the fewer questions I will be asked.
 
