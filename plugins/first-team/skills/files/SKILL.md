@@ -32,7 +32,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
    Tell me these are asked once. The numbers you track after today are counted from my sources, never asked again.
 
-2. **Recommend where the files go.** Pick the first place on this list where you can edit and that is private to me, and recommend it in one line with its trade-off. Name the others you can use in one more line, and wait. If I pick another, give its trade-off in one line.
+2. **Recommend where the files go.** Pick the first place on this list where you can edit and that is private to me, and recommend it in one line with its trade-off. If no private place lets you edit but you can create files in a private Google Drive folder, recommend that, with dated copies. Name the others you can use in one more line, and wait. If I pick another, give its trade-off in one line.
    - **Notion:** one My First Team page with a page per person. Updated in place.
    - **OneDrive or SharePoint:** a My First Team folder, one file per person. Updated in place. If you can only edit Word documents there, one Word document per person.
    - **Google Drive:** a My First Team folder, one file per person. Updated in place if you can edit files there. If you can only create them, every file (each person's file and My baseline) is written as a new copy named with the date and time (About NAME 2026-10-04 0930.md, My baseline 2026-10-04 0930.md), every skill reads only the newest copy of each, and the old ones pile up until I clear them out.
