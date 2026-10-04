@@ -2,7 +2,7 @@
 
 Your First Team is the most senior team you sit on: the leadership team, where each of you owns a function of the business. Not the people who report to you, and not everyone you work with. The idea is Patrick Lencioni's, from The Five Dysfunctions of a Team and The Advantage.
 
-This plugin keeps one page on each of your peers that stays current without you touching it, shows you the week across the whole team, and helps you bring the business above your function into everything you do with them.
+This plugin keeps one file on each of your peers that stays current without you touching it, shows you the week across the whole team, and helps you bring the business above your function into everything you do with them.
 
 It comes from Getting Practical about AI, an Always Allow session held with Primary in October 2026.
 
