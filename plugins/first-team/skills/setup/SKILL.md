@@ -1,57 +1,53 @@
 ---
 name: setup
-description: "Set up my First Team: find who is on it, write one page per person, and choose where those pages live so they refresh on their own. Run once, at the start."
+description: "Set up my First Team project, one step at a time: make the project, move this chat in, paste the instructions, check the settings, then run the First Team prompt. Run this first, in a new chat."
 ---
 
-# First Team setup
+# Setup
 
 ## What this skill does
 
-My First Team is the most senior team I sit on: the leadership team, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with. This skill finds who is on it, writes one page per person with what they are focused on right now, and puts those pages somewhere every other First Team skill can read them and the refresh can rewrite them. It runs once. After that, nothing about the pages is updated by hand.
+It walks me through setting up one project for my First Team, one step at a time, and ends with a list of my First Team and what each of them is working on. My First Team is the most senior team I sit on: the leadership team, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with. I make no choices here about where files are kept or how often anything updates. That comes later, in the files skill.
 
-## What it reads first
+## How to run it
 
-Work these three out before step 1, then tell me what you found in one line so I can correct you.
+Give me one step at a time. Say what to do in plain words, tell me what I should see when it worked, and wait for me to say done before the next step. If I say I am stuck, help with that step only.
 
-1. **Who I am.** My role, my team and my manager, from my profile, my calendar and my messages. If you cannot tell, ask me in one question.
-2. **What you can actually reach.** Name the sources you can see (chat, email, calendar, meeting notes, documents) and the dates they cover. If you can reach none, say so and ask me to paste in my last month instead of guessing.
-3. **Where you can write.** Check which of these you can create pages in, and which you can also edit: Notion, Google Drive, Microsoft 365 (OneDrive or SharePoint), or a folder on my computer. Only offer me the places you can actually write to.
+Say once, at the start, which tool you are running in, Claude or ChatGPT, and give the steps for that tool. If you are not sure where a button is in my version, say what it is called and ask me to look for it rather than guessing a path.
 
 ## Steps
 
-1. **Find my First Team.** From the last 90 days, find the people who sit with me on the leadership team: the recurring leadership meeting, the channel or thread where we decide things together, the people copied on the same plans. List them with their function and the evidence for each, and ask me to confirm, add or remove anyone. Do not include the people who report to me. Wait for my answer.
+1. **Make a new project** called My First Team. If my tool asks how the project should use memory, choose the option that keeps memory inside this project only. Some tools only let you choose this when the project is made, so do it now.
 
-2. **Ask where the pages should live, and wait.** Offer only the places you checked you can write to:
-   - **Notion:** a page called My First Team, one sub-page per person.
-   - **Google Drive:** a folder called My First Team, one file per person. Drive lets you create files but not edit them, so each update adds a new dated version of each page and the old ones pile up until I clear them out.
-   - **Microsoft 365:** a folder called My First Team in OneDrive or SharePoint, one file per person, named About NAME.md. This needs editing turned on by my company's admin. If you can only edit Word documents there, use one Word document per person instead.
-   - **A folder on my computer:** a folder called My First Team, one file per person, named About NAME.md.
+2. **Move this chat into the project,** so this setup lives with everything else.
 
-   The first time you offer a .md file, explain it in one line: it is a plain text file, words with a few symbols for headings and bullet points, that any AI reads cleanly and any computer can open.
+3. **Paste these instructions** into the project's instructions:
 
-   If you can write to none of them, say so plainly, write the pages here in the chat for me to add to this project's files, and tell me that until I connect Notion or Microsoft 365, or give you a folder, keeping them current is a job for me.
+   > This project is about my First Team: the most senior team I sit on, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with.
+   >
+   > Before you answer, read what you know about each person on my First Team. On a draft or a decision, tell me how each of them will read it.
+   >
+   > Use shared channels, shared documents and meetings I was in only. Leave out direct messages between other people, anything said to me in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins. Never quote these notes in anything I send.
+   >
+   > Settings: none yet.
 
-3. **Write one page per person,** in this shape and nothing more:
-   - **Their function, and what they own**
-   - **Priorities right now:** three at most, each with where you saw it and the date
-   - **What is in their way:** the blockers they have named themselves
-   - **Where my team touches their work:** what we give them, what they give us
-   - **Last updated:** the date and the sources read
+   Tell me the files skill fills in the Settings line later.
 
-   Where you are guessing rather than reading it, say so on the page and ask me.
+4. **Check the project settings:**
+   - **Memory:** on for this project only, or off. Never shared with my other chats.
+   - **Connected apps:** turn on the ones my work lives in: chat (Slack or Teams), email, calendar, meeting notes. Each one is optional, and the more I connect, the fewer questions I will be asked.
 
-4. **Write the project instructions** for me to paste into this project's instructions box, so every chat reads the pages first:
+5. **Run the First Team prompt.** Ask me to open a new chat inside the project and paste this, with my details filled in:
 
-   > This project is about my First Team: [names, with functions]. Before you answer, read each person's page in [where they live]. On a draft or a decision, tell me how each of them will read it. Use shared channels and shared documents only. Never quote these notes in anything I send.
+   > I lead [team] at [company], reporting to [manager]. My First Team is the most senior team I sit on: the leadership team, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with. The people on it are: [name, function], [name, function], [name, function].
+   >
+   > Scan my chat for the last 90 days, my email and my meeting notes. If none of those are connected, ask me questions instead. For each person on that list, tell me: what their priorities are right now, what the biggest blockers to those priorities are, and how my team can help. Where you are guessing rather than reading it from my messages, say so and ask me. One short section per person, so I can turn each into its own file later.
 
-5. **Tell me what happens next:** run the refresh skill now to build My First Team this week, then set it to run every Monday. It builds the dashboard every week and updates the pages every other week.
+6. **Finish by telling me** to keep that chat open, because the files skill turns its answer into one file per person.
 
 ## Rules
 
-- Read only meetings and threads where at least one person on my First Team is present. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there.
-- One person can show up under more than one account or email. Merge them into one person and say which accounts you merged.
-- Shared channels, shared documents and meetings I was in only. Leave out direct messages between other people, anything said to me in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
-- A page describes someone's work, never their mood, their attitude or how well they are doing.
-- Never invent a priority, a blocker or a date. "Not found in what I could see" is a fine answer.
-- Never send, post or share anything. The pages are mine to read.
+- One step at a time, and wait for done.
+- Never change a setting, connect an app or create anything on my behalf without telling me first.
+- Never send, post or share anything.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.

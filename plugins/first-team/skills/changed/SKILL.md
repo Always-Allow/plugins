@@ -13,7 +13,7 @@ It compares an earlier stretch of time with now and shows what moved in my First
 
 Work these out before step 1, then tell me what you found in one line so I can correct you.
 
-1. **Who is on my First Team.** Read the pages from where the project instructions say they live. If there are none, ask me who is on it.
+1. **Who is on my First Team.** Read the files from where the Settings line in the project instructions says they are kept. If there are none, ask me who is on it.
 2. **What you can actually reach.** Name the sources you can see and the dates they cover. If you can reach none, say so and ask me to paste in the two periods instead of guessing.
 
 ## Steps
