@@ -26,7 +26,7 @@ Ask the three questions as numbered choices, one at a time. Mark the recommended
    - **Notion:** one My First Team page with a page per person. Updated in place. Recommended if I use Notion.
    - **A folder on my computer:** one file per person, named About NAME.md. Updated in place, and only on this computer. Recommended otherwise.
    - **OneDrive or SharePoint:** a My First Team folder, one file per person. Updated in place, if my company's admin has editing turned on. If you can only edit Word documents there, use one Word document per person.
-   - **Google Drive:** a My First Team folder, one file per person, each named with the date (About NAME 2026-10-04.md). Drive lets you create files but not edit them, so each update adds a new dated copy of every file, every skill reads only the newest one, and the old ones pile up until I clear them out.
+   - **Google Drive:** a My First Team folder, one file per person, each named with the date and time it was written (About NAME 2026-10-04 0930.md). Drive lets you create files but not edit them, so each update adds a new dated copy of every file, every skill reads only the newest one, and the old ones pile up until I clear them out.
 
    The first time you mention a .md file, explain it in one line: a plain text file, words with a few symbols for headings and bullet points, that any AI reads cleanly and any computer can open.
 
@@ -49,11 +49,11 @@ Ask the three questions as numbered choices, one at a time. Mark the recommended
 
    > Settings: Files are kept in [where]. Files update [how often]. The dashboard updates every Monday.
 
-   If the files are in Google Drive, add: "Read only the newest dated copy of each person's file."
+   If the files are in Google Drive, add: "Read only the newest copy of each person's file, by the date and time in its name."
 
    Every other First Team skill reads this line to find the files.
 
-6. **Build my first dashboard** by running the refresh skill now. It builds the dashboard as an artifact in Claude and a site in ChatGPT.
+6. **Build my first dashboard** by running the refresh skill now. It builds the dashboard as an artifact in Claude and a site in ChatGPT, and every later refresh updates that same dashboard, so there is always one to open in this project.
 
 7. **Set the schedule:** walk me through setting the refresh skill to run every Monday morning in my tool, one step at a time, and wait for done. If my tool cannot run things on a schedule, say so and tell me to run refresh myself each Monday.
 
