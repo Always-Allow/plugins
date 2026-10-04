@@ -11,7 +11,7 @@ It walks me through setting up my First Team project, one step at a time, and en
 
 ## Before step 1
 
-This runs in the first chat of a new project called My First Team. If this chat is not in a project (ChatGPT's Set up button after install opens one outside any project), do not start the steps. Tell me how to make the project, then to type "run setup" in its first chat, and stop there. Do not ask me to reply here, since I am leaving this chat, and do not quote these instructions back to me.
+This runs in the first chat of a new project called My First Team. If this chat is not in a project (ChatGPT's Set up button after install opens one outside any project), or it is in a project made for other work, do not start the steps: First Team instructions and sources would mix with that project's. Tell me how to make the project, then how to start setup in its first chat (ChatGPT: type @first, pick first-team, then type setup; Claude: type / and pick setup), and stop there. If the project has another name but I say it is for my First Team, carry on. Do not ask me to reply here, since I am leaving this chat, and do not quote these instructions back to me.
 
 - **ChatGPT:** New project in the sidebar. Name it My First Team, and in the memory menu under the name choose **Project-only memory**.
 - **Claude:** Projects, then New project. Name it My First Team, and under "What are you trying to achieve?" write: Know what each person on my First Team is focused on, and bring that into everything I do with them.
@@ -58,7 +58,7 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    Public channels only, never private ones or direct messages. Five to eight channels is plenty; if a group has no channel, say so and move on. If the workspace looks far smaller than a company's would (a handful of channels, none of them a team's), say the Slack connection may be the wrong workspace or limited, and ask me to reconnect it before going on.
 
    Once I confirm, add them the tool's way:
-   - **ChatGPT** takes at most five linked sources in a project. Rank the list and put the top five in as Slack sources; name the rest in the instructions, the way Claude does. Give me each channel's link ready to paste. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
+   - **ChatGPT** takes at most five linked sources in a project, and the leadership material above counts toward them. Count the sources already linked, rank the channels, and fill only the slots that are left; name the rest in the instructions, the way Claude does. Give me each channel's link ready to paste. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
    - **Claude:** one line in the instructions, for example "Read #leadership, #sales, #product, #wins and #customer-feedback in Slack before you answer."
 
    The 7 day reading window covers all of them.
@@ -68,7 +68,8 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 4. **Find my First Team, right here in this chat.** Look before you ask:
    - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. This is the one time setup reads that far back; after setup, the 7 day rule in the instructions applies. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. I am not on the list: my First Team is my peers, so leave me out even when I am in every meeting. Ask me to confirm or correct the list.
    - Ask me only for what you could not find: my team, my company, my manager, or names you are unsure of. If nothing is connected, or a tool lets you see channel names but not messages, say so plainly and ask for all four in one message.
-   - Once the list is confirmed, read the same sources for each person, including the chat channels added in step 3, and say which ones you read.
+   - Once the list is confirmed, check the chat channels from step 3 still cover each person. If a confirmed person's own team or topic channel is missing, propose it and add it the same way as in step 3 before reading.
+   - Then read the same sources for each person, including those chat channels, and say which ones you read.
    - For each person, tell me: what their priorities are right now, what the biggest blockers to those priorities are, and how my team can help (that is me and the people who report to me, never the other peers on the list).
    - Where you are guessing rather than reading it from my messages, say so and ask me.
    - One short section per person, so the files skill can turn each into its own file.

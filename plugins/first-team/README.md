@@ -12,7 +12,7 @@ It comes from Getting Practical about AI, an Always Allow session held with Prim
 |---|---|---|
 | [Setup](skills/setup/SKILL.md) | Runs in the first chat of a new project called My First Team and walks you through the rest, one step at a time | Instructions, memory and context set, and your First Team with what each person is working on |
 | [Files](skills/files/SKILL.md) | Turns that answer into one file per person, in Notion, a folder on your computer, OneDrive or SharePoint, or Google Drive, and sets how often they update | The files, your first weekly dashboard, and the schedule |
-| [Refresh](skills/refresh/SKILL.md) | Builds the weekly dashboard every Monday, and updates each file on the schedule you chose | My First Team this week: where the team's time went, what it talked about, where you overlap, and up to four things to do |
+| [Refresh](skills/refresh/SKILL.md) | Builds the weekly dashboard every Monday (an artifact in Claude, a site in ChatGPT), and updates each file on the schedule you chose | My First Team this week: where the team's time went, what it talked about, where you overlap, and up to four things to do |
 | [Prep](skills/prep/SKILL.md) | Preps you for any meeting with your First Team | What each person is focused on, where your team can help, and what you said you would bring |
 | [Review](skills/review/SKILL.md) | Runs anything past your First Team before it goes out | One line per person for something short; each person's read and one list of changes for something finished |
 | [Feedback](skills/feedback/SKILL.md) | Feedback for you on how you work as a First Team member this month | Where you showed up for your peers and where you fell short, with the evidence, and a draft of what to say |
@@ -34,7 +34,7 @@ The files use them for three reasons:
 
 They read only meetings and threads where someone on your First Team is present. They leave out direct messages between other people, anything said to you in confidence, health or family details, anything your company's AI policy rules out, and passwords. None of them sends, posts or shares anything: they read, they show you what they found and where, and they draft. Sending stays yours.
 
-Turn off memory in your AI tool before you use them, so what they find about your peers stays in this project.
+Keep memory inside the project before you use them (Project-only memory in ChatGPT, account memory switched off in Claude), so what they find about your peers stays in this project.
 
 ## Install
 
