@@ -10,8 +10,8 @@ It comes from Getting Practical about AI, an Always Allow session held with Prim
 
 | Skill | What it does | What you get back |
 |---|---|---|
-| [Setup](skills/setup/SKILL.md) | Finds who is on your First Team and writes one page per person, in Notion, Microsoft 365 or a folder on your computer | The pages, and the instructions to paste into your project |
-| [Refresh](skills/refresh/SKILL.md) | Rewrites each page from the last week, every Monday | My First Team this week: where the team's time went, what it talked about, where you overlap, and up to four things to do |
+| [Setup](skills/setup/SKILL.md) | Finds who is on your First Team and writes one page per person, in Notion, Google Drive, OneDrive or SharePoint, or a folder on your computer | The pages, and the instructions to paste into your project |
+| [Refresh](skills/refresh/SKILL.md) | Builds the weekly dashboard every Monday, and updates each page every other week | My First Team this week: where the team's time went, what it talked about, where you overlap, and up to four things to do |
 | [Prep](skills/prep/SKILL.md) | Preps you for any meeting with your First Team | What each person is focused on, where your team can help, and what you said you would bring |
 | [Review](skills/review/SKILL.md) | Runs anything past your First Team before it goes out | One line per person for something short; each person's read and one list of changes for something finished |
 | [Feedback](skills/feedback/SKILL.md) | Feedback for you on how you work as a First Team member this month | Where you showed up for your peers and where you fell short, with the evidence, and a draft of what to say |

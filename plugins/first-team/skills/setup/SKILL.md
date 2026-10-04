@@ -15,7 +15,7 @@ Work these three out before step 1, then tell me what you found in one line so I
 
 1. **Who I am.** My role, my team and my manager, from my profile, my calendar and my messages. If you cannot tell, ask me in one question.
 2. **What you can actually reach.** Name the sources you can see (chat, email, calendar, meeting notes, documents) and the dates they cover. If you can reach none, say so and ask me to paste in my last month instead of guessing.
-3. **Where you can write.** Check which of these you can both create and edit pages in: Notion, Microsoft 365 (OneDrive or SharePoint), or a folder on my computer. Only offer me the places you can actually do both in, because the refresh rewrites the same pages every week.
+3. **Where you can write.** Check which of these you can create pages in, and which you can also edit: Notion, Google Drive, Microsoft 365 (OneDrive or SharePoint), or a folder on my computer. Only offer me the places you can actually write to.
 
 ## Steps
 
@@ -23,7 +23,8 @@ Work these three out before step 1, then tell me what you found in one line so I
 
 2. **Ask where the pages should live, and wait.** Offer only the places you checked you can write to:
    - **Notion:** a page called My First Team, one sub-page per person.
-   - **Microsoft 365:** a folder called My First Team in OneDrive or SharePoint, one file per person, named About NAME.md. If you can only edit Word documents there, use one Word document per person instead.
+   - **Google Drive:** a folder called My First Team, one file per person. Drive lets you create files but not edit them, so each update adds a new dated version of each page and the old ones pile up until I clear them out.
+   - **Microsoft 365:** a folder called My First Team in OneDrive or SharePoint, one file per person, named About NAME.md. This needs editing turned on by my company's admin. If you can only edit Word documents there, use one Word document per person instead.
    - **A folder on my computer:** a folder called My First Team, one file per person, named About NAME.md.
 
    The first time you offer a .md file, explain it in one line: it is a plain text file, words with a few symbols for headings and bullet points, that any AI reads cleanly and any computer can open.
@@ -43,7 +44,7 @@ Work these three out before step 1, then tell me what you found in one line so I
 
    > This project is about my First Team: [names, with functions]. Before you answer, read each person's page in [where they live]. On a draft or a decision, tell me how each of them will read it. Use shared channels and shared documents only. Never quote these notes in anything I send.
 
-5. **Tell me what happens next:** run the refresh skill now to build My First Team this week, then set it to run every Monday.
+5. **Tell me what happens next:** run the refresh skill now to build My First Team this week, then set it to run every Monday. It builds the dashboard every week and updates the pages every other week.
 
 ## Rules
 
