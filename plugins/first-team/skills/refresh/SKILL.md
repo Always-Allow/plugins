@@ -23,7 +23,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 2. **If the files are due, bring each one up to date** from everything since its Last updated date, in the same shape as before. Change only what moved, update the Last updated line, and add one line to the top of Changes: the date and what changed, in eight words or fewer, for example "18 Oct · New priority: Q4 hiring plan". If nothing moved, add "18 Oct · No change". Then keep only the newest ten lines of Changes. Where the files live decides how:
    - **Notion, OneDrive or SharePoint, or a folder on my computer:** edit each file in place.
-   - **Google Drive:** it can create files but not edit them, so add a new version of each file with the date and time in its name (About NAME 2026-10-18 0930.md), so two updates on one day never share a name. Every First Team skill reads only the newest copy of each person's file, by that date and time, as the Settings line says. Tell me how many older versions there are, so I can clear them out.
+   - **Google Drive:** it can create files but not edit them, so add a new version of each file with the date and time in its name (About NAME 2026-10-18 0930.md), so two updates on one day never share a name. Every First Team skill reads only the newest copy of each person's file, by that date and time, and if two copies share a name, the one Drive shows as modified most recently, as the Settings line says. Tell me how many older versions there are, so I can clear them out.
 
    If the files are not due, leave them alone and say when they will be.
 

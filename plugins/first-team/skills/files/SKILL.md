@@ -49,7 +49,7 @@ Ask the three questions as numbered choices, one at a time. Mark the recommended
 
    > Settings: Files are kept in [where]. Files update [how often]. The dashboard updates every Monday.
 
-   If the files are in Google Drive, add: "Read only the newest copy of each person's file, by the date and time in its name."
+   If the files are in Google Drive, add: "Read only the newest copy of each person's file, by the date and time in its name; if two copies share a name, the one Drive shows as modified most recently."
 
    Every other First Team skill reads this line to find the files.
 
