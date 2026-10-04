@@ -49,7 +49,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
    - **Priorities right now:** three at most, each with where you saw it and the date. Put them in the order the person or the company's plan puts them; if neither does, say they are not ranked
    - **What is in their way:** the blockers they have named themselves. A blocker the AI worked out rather than heard them say is marked "Possible blocker, not confirmed", with where it came from
    - **Where my team touches their work:** what we give them, what they give us
-   - **Last updated:** the date you read up to, and the sources read, named in one short line. If a source could not be read, say which, so refresh reads it again from that date
+   - **Last updated:** the date you read up to, and the sources read, named in one short line. If a source could not be read, say which and since when, so refresh reads it again from the start of what was missed
    - **Changes:** newest first, one line each: the date and what changed, in eight words or fewer, written like "4 Oct · File created". Start it with that line. Keep the last ten lines.
 
    Keep everything setup found. Where you cannot find it again in my sources, keep it marked "From setup, not found again", so nothing drops without me seeing it. Where you are guessing rather than reading it, say so in the file and ask me.

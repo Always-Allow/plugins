@@ -14,7 +14,7 @@ It gets me ready to walk into a meeting with my First Team already knowing what 
 Work these out before step 1, then tell me what you found in one line so I can correct you.
 
 1. **Which meeting.** The next leadership meeting or the next meeting with one peer, from my calendar, unless I name another. Say which one, when, and who is in it.
-2. **Their files.** Read each attendee's First Team file from where the Settings line in the project instructions says they are kept. If the files are due under the update schedule in the Settings line, counting from each file's Last updated line, say so and suggest running the refresh skill first. If they update only when I ask, say when they were last updated and suggest refresh if that is more than two weeks ago.
+2. **Their files.** Read each attendee's First Team file from where the Settings line in the project instructions says they are kept. If the files are due under the update schedule in the Settings line, counting from each file's Last updated line, say so and suggest running the refresh skill first. If they update only when I ask, say when they were last updated and suggest running refresh and asking it to update the files if that is more than two weeks ago.
 3. **What you can actually reach,** and the dates it covers.
 
 ## Steps
