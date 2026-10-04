@@ -30,6 +30,8 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    >
    > Before you answer, read what you know about each person on my First Team. On a draft or a decision, tell me how each of them will read it.
    >
+   > How far back to read: the last 7 days of any channel, inbox, calendar or meeting notes, unless I say otherwise. If the question needs older context (a past decision, the quarter's plan, how a topic developed), read back only as far as that question needs, and say how far back you read.
+   >
    > Use shared channels, shared documents and meetings I was in only. Leave out direct messages between other people, anything said to me in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins. Never quote these notes in anything I send.
    >
    > Settings: none yet.
@@ -46,12 +48,12 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
 3. **Add the leadership team's own material,** so every chat starts from it: the leadership team's folder, the rolling agenda or meeting notes doc, the plan for the quarter.
    - **ChatGPT:** the same way as the instructions: in the sidebar, the ··· menu on My First Team, then Project settings, then Add next to Available sources. ChatGPT can also take one Slack channel by its link, so add the leadership team's channel if there is one. Then Save.
-   - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a single Slack channel here, so add the channel's name to the instructions instead: "Read #leadership in Slack before you answer."
+   - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a single Slack channel here, so add the channel's name to the instructions instead: "Read #leadership in Slack before you answer." Check the channel name against the channels I am in before suggesting it. If the Slack connection lists channels but cannot read their messages, say so plainly.
 
    Also check the apps my work lives in are connected (chat, email, calendar, meeting notes). Each one is optional, and the more I connect, the fewer questions I will be asked.
 
 4. **Find my First Team, right here in this chat.** Look before you ask:
-   - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. Ask me to confirm or correct the list.
+   - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. This is the one time setup reads that far back; after setup, the 7 day rule in the instructions applies. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. Ask me to confirm or correct the list.
    - Ask me only for what you could not find: my team, my company, my manager, or names you are unsure of. If nothing is connected, or a tool lets you see channel names but not messages, say so plainly and ask for all four in one message.
    - Once the list is confirmed, read the same sources for each person.
    - For each person, tell me: what their priorities are right now, what the biggest blockers to those priorities are, and how my team can help.
