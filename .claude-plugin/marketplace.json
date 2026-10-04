@@ -1,0 +1,11 @@
+{
+  "name": "always-allow",
+  "owner": { "name": "Always Allow" },
+  "plugins": [
+    {
+      "name": "first-team",
+      "source": "./plugins/first-team",
+      "description": "Work as a member of your First Team: one page per peer that keeps itself current, a weekly view of the whole team, and skills to prep, review and get feedback."
+    }
+  ]
+}
