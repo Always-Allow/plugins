@@ -20,7 +20,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 1. **My First Team answer.** The setup chat in this project, where setup found my First Team. If there is none, stop and tell me to run setup first. If setup left questions I never answered (for example whether I have a team under me, or whether the functions are right), ask them now, in one message, and wait.
 2. **My sources.** The sources linked to this project, the chat channels named in the project instructions, and my connected email, calendar and meeting notes. That is the whole list; read nothing else.
 3. **Where you can write.** For each of Notion, OneDrive or SharePoint, Google Drive, and a folder on my computer: whether the tools you have here let you create files there, and whether they also let you edit them. Judge from the tools you have and never write a test file.
-4. **Whether this is a re-run.** If the Settings line already names where my files are kept and the person files are there, this is a re-run: see "Running it again" below. If My baseline is not there yet, take the baseline (steps 1, 5, 6, 7 and 8), ask me where my existing dashboard is and write it on the Dashboard line, and keep everything else as it is.
+4. **Whether this is a re-run.** If the Settings line already names where my files are kept and the person files are there, this is a re-run: see "Running it again" below. If My baseline is not there yet, take the baseline (steps 1, 5, 6, 7 and 8) and keep everything else as it is. Then find my existing dashboard: look for one made in this project (in Claude, an artifact named My First Team this week from this project's chats; in ChatGPT, a site with that name from this project) whose people match my First Team, and write its link on the Dashboard line. If you looked and there is none, leave the line empty for refresh to fill. If you could not look, or cannot tell which one is this project's, ask me for the link to "the page called My First Team this week that the files skill built last time".
 
 ## Steps
 
@@ -54,7 +54,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
    Keep everything setup found. Where you cannot find it again in my sources, keep it marked "From setup, not found again", so nothing drops without me seeing it. Where you are guessing rather than reading it, say so in the file and ask me.
 
-5. **Check my memory against the files.** For each person, put my answer to the first baseline question beside their top priority, where the person or the plan makes it clearly the top one. Mark each one: matches, different, or not clear. Count only the clear ones, for example "You had 2 of 3 right from memory; Marcus's top priority wasn't clear." A miss is the point of the files, never a mark against me.
+5. **Check my memory against the files.** For each person, put my answer to the first baseline question beside the priorities in their file. Mark each one: top priority (their file ranks its priorities and my answer is the first), one of their priorities (my answer is in their file, but the file does not rank them or puts it lower), different (it is not among them), or not clear (their file has no priorities you could find, or I said I don't know). Count only the clear ones, and keep the two kinds of match apart, for example "You had 2 of 3: one top priority, one of their listed priorities; Marcus's file has no priorities yet." Where I named something their file does not have, say so, because it may belong in the file. A miss is the point of the files, never a mark against me.
 
 6. **Find the company's priorities this quarter** in the plan or the leadership material in my sources. If there is no plan there, ask me for them now, and wait. Refresh uses these every Monday.
 
@@ -72,15 +72,15 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 9. **Fill in the Settings line** of the project instructions, and give it to me to paste over the old one:
 
-   > Settings: Files are kept in [the exact place, for example the Notion page My First Team, or the folder Documents/My First Team on my computer], with My baseline beside them. Files update [how often]. The dashboard updates every Monday.
+   > Settings: Files are kept in [the exact place, with its ID or link where it has one, for example the Notion page My First Team (page ID 3ef5...), or the folder Documents/My First Team on my computer], with My baseline beside them. Files update [how often]. The dashboard updates every Monday.
 
    If the files are Google Drive dated copies, add: "Every file there is a dated copy: read only the newest copy of each, by the date and time in its name; if two copies share a name, the one Drive shows as modified most recently."
 
-   Every other First Team skill reads this line to find the files.
+   An ID keeps working if the page is renamed or moved, so every skill goes straight to it. Every other First Team skill reads this line to find the files.
 
 10. **Build my first dashboard** by running the refresh skill now, and show me where it is. Wait until I have opened it.
 
-11. **Set the schedule:** one step at a time, and wait for done.
+11. **Set the schedule.** If you can create a scheduled task yourself from this chat, offer to: the refresh skill every Monday morning, with a time suggested, and create it once I say yes. Otherwise walk me through it one step at a time, and wait for done.
     - **Claude:** on the project page, Scheduled, then Add. Ask it to run the refresh skill every Monday morning.
     - **ChatGPT:** look for scheduled tasks. If you are not sure where it is in my version, say what it is called and ask me to look for it rather than guessing a path.
 
@@ -88,7 +88,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 ## Running it again
 
-Never ask the baseline questions again and never change the Baseline part of My baseline, unless I say "start a new baseline"; then keep the old file, renamed with its date (with Drive dated copies the date is already in its name: just leave it). Keep the person files and their Changes, and change only what I asked for. If I am moving the files somewhere else, copy every person file and My baseline to the new place, check each one is there, and only then give me the new Settings line.
+Never ask the baseline questions again and never change the Baseline part of My baseline, unless I say "start a new baseline"; then keep the old file, renamed with its date (with Drive dated copies the date is already in its name: just leave it). Keep the person files and their Changes, and change only what I asked for. Keep my Settings line as it is: if My baseline is new, give me the same line with only "with My baseline beside them" added, never a rewrite that drops an ID or a link. If I am moving the files somewhere else, copy every person file and My baseline to the new place, check each one is there, and only then give me the new Settings line.
 
 ## Rules
 
