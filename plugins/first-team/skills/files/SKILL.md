@@ -38,7 +38,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
    - **Google Drive:** a My First Team folder, one file per person. Updated in place if you can edit files there. If you can only create them, every file (each person's file and My baseline) is written as a new copy named with the date and time (About NAME 2026-10-04 0930.md, My baseline 2026-10-04 0930.md), every skill reads only the newest copy of each, and the old ones pile up until I clear them out.
    - **A folder on my computer:** a My First Team folder, one file per person, named About NAME.md. Only if you can reach a folder on my computer from this chat. A scheduled run may not reach it, so the files may only update when I run refresh myself.
 
-   The files hold notes on my peers and my own numbers, so the place must be private to me. Where you can see who has access (a Notion page inside a shared teamspace, a shared folder) and it is shared, do not recommend it. Where you cannot see who has access, ask me to check before you write.
+   The files hold notes on my peers and my own numbers, so the place must be private to me. Where you can see who has access (a Notion page inside a shared teamspace, a shared folder) and it is shared, do not recommend it. If I pick a place you can see is shared, say so once and wait for me to confirm before you write. Where you cannot see who has access, ask me to check before you write.
 
    The first time you mention a .md file, explain it in one line: a plain text file, words with a few symbols for headings and bullet points, that any AI reads cleanly and any computer can open.
 
@@ -59,7 +59,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 6. **Find the company's priorities this quarter** in the plan or the leadership material in my sources. If there is no plan there, ask me for them now, and wait. Refresh uses these every Monday.
 
 7. **Count where I start.** From the last 30 days of my sources, count these four exactly as written here. All four are about me, never a score of a peer.
-   - **Asks answered.** An ask is a question or request a person on my First Team put to me by name, or in a thread with me, in a channel, an email or meeting notes. The same ask in several places counts once. Answered means I replied or did it, anywhere in my sources. Show the asks, how many were answered, and the median hours to my first written reply (half were faster, half slower), using only asks I answered in writing. With no asks, show "No asks this period"; with asks but no written replies, show "No written replies to measure", never zero hours.
+   - **Asks answered.** An ask is a question or request a person on my First Team put to me by name, or in a thread with me where a reply from me is expected, in a channel, an email or meeting notes. The same ask in several places counts once. Answered means I replied or did it, anywhere in my sources. Show the asks, how many were answered, and the median hours to my first written reply (half were faster, half slower), using only asks I answered in writing. With no asks, show "No asks this period"; with asks but no written replies, show "No written replies to measure", never zero hours.
    - **Promises kept.** A promise is something I said I would send, check, bring or decide. Put each in one group only: kept (you can see it happen: sent, posted, or raised in the meeting), not due yet (its date is still ahead), past due and not seen (its date has passed and you could not see it happen), or no date and not seen. Show the four counts. Never call a promise broken: you only know what you could see.
    - **Time with each person.** Meeting hours with each of them: meetings on my calendar that we both attended, not cancelled or declined, by their scheduled length. And shared threads: threads where we both wrote. Shown separately.
    - **The business above my function.** Each point is one item the meeting notes say I raised in a leadership meeting, or one post of mine in the leadership channel. Show how many were about a company priority or a peer's area, out of all of them, and the share as a percent. This is the AI's judgement of each point: call it an estimate. With no points, show "Nothing raised this period".
@@ -88,7 +88,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 ## Running it again
 
-Never ask the baseline questions again and never change the Baseline part of My baseline, unless I say "start a new baseline"; then keep the old file, renamed with its date. Keep the person files and their Changes, and change only what I asked for. If I am moving the files somewhere else, copy every person file and My baseline to the new place, check each one is there, and only then give me the new Settings line.
+Never ask the baseline questions again and never change the Baseline part of My baseline, unless I say "start a new baseline"; then keep the old file, renamed with its date (with Drive dated copies the date is already in its name: just leave it). Keep the person files and their Changes, and change only what I asked for. If I am moving the files somewhere else, copy every person file and My baseline to the new place, check each one is there, and only then give me the new Settings line.
 
 ## Rules
 
