@@ -1,13 +1,20 @@
 ---
 name: setup
-description: "Set up my First Team project, one step at a time: make the project, move this chat in, paste the instructions, check the settings, then run the First Team prompt. Run this first, in a new chat."
+description: "Set up my First Team project, one step at a time: paste the instructions, keep memory in the project, add the leadership team's material, then find my First Team. Run it in the first chat of a new project called My First Team."
 ---
 
 # Setup
 
 ## What this skill does
 
-It walks me through setting up one project for my First Team, one step at a time, and ends with a list of my First Team and what each of them is working on. My First Team is the most senior team I sit on: the leadership team, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with. I make no choices here about where files are kept or how often anything updates. That comes later, in the files skill.
+It walks me through setting up my First Team project, one step at a time, and ends with my First Team and what each of them is working on. My First Team is the most senior team I sit on: the leadership team, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with. I make no choices here about where files are kept or how often anything updates. That comes later, in the files skill.
+
+## Before step 1
+
+This runs in the first chat of a new project called My First Team. If this chat is not in a project, stop and tell me to make one first, then come back and run setup there:
+
+- **ChatGPT:** New project in the sidebar. Name it My First Team, and in the memory menu under the name choose **Project-only memory**.
+- **Claude:** Projects, then New project. Name it My First Team, and under "What are you trying to achieve?" write: Know what each person on my First Team is focused on, and bring that into everything I do with them.
 
 ## How to run it
 
@@ -17,11 +24,7 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
 ## Steps
 
-1. **Move this chat into a new project** called My First Team, so this setup lives with everything else.
-   - **ChatGPT:** the ··· menu at the top right, then Move to project, then New project. Name it My First Team, and in the memory menu under the name choose **Project-only memory**.
-   - **Claude:** the arrow beside this chat's title, then Add to project, then New project. Name it My First Team, and under "What are you trying to achieve?" write: Know what each person on my First Team is focused on, and bring that into everything I do with them.
-
-2. **Paste these instructions** into the project's instructions:
+1. **Paste these instructions** into the project's instructions:
 
    > This project is about my First Team: the most senior team I sit on, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with.
    >
@@ -37,27 +40,28 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
    Tell me the files skill fills in the Settings line later.
 
-3. **Check memory stays in this project.**
-   - **ChatGPT:** in Project settings, Memory should say Project-only.
+2. **Check memory stays in this project.**
+   - **ChatGPT:** in Project settings, Memory should say Project-only. If it does not, change it there.
    - **Claude:** on the project page, Memory, then View, and switch off "Use account memory".
 
-4. **Add the leadership team's own material,** so every chat starts from it: the leadership team's folder, the rolling agenda or meeting notes doc, the plan for the quarter.
+3. **Add the leadership team's own material,** so every chat starts from it: the leadership team's folder, the rolling agenda or meeting notes doc, the plan for the quarter.
    - **ChatGPT:** the Sources tab on the project page, then Add sources. ChatGPT can also take one Slack channel by its link, so add the leadership team's channel if there is one.
-   - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a single Slack channel here, so write the channel's name into the instructions instead: "Read #leadership in Slack before you answer."
+   - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a single Slack channel here, so add the channel's name to the instructions instead: "Read #leadership in Slack before you answer."
 
    Also check the apps my work lives in are connected (chat, email, calendar, meeting notes). Each one is optional, and the more I connect, the fewer questions I will be asked.
 
-5. **Run the First Team prompt.** Ask me to open a new chat inside the project and paste this, with my details filled in:
+4. **Find my First Team, right here in this chat.** Ask me in one message: my team, my company, my manager, and the names and functions of the people on my First Team. Then:
+   - Read my chat for the last 90 days, my email and my meeting notes. If none of those are connected, ask me questions instead.
+   - For each person, tell me: what their priorities are right now, what the biggest blockers to those priorities are, and how my team can help.
+   - Where you are guessing rather than reading it from my messages, say so and ask me.
+   - One short section per person, so the files skill can turn each into its own file.
 
-   > I lead [team] at [company], reporting to [manager]. My First Team is the most senior team I sit on: the leadership team, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with. The people on it are: [name, function], [name, function], [name, function].
-   >
-   > Scan my chat for the last 90 days, my email and my meeting notes. If none of those are connected, ask me questions instead. For each person on that list, tell me: what their priorities are right now, what the biggest blockers to those priorities are, and how my team can help. Where you are guessing rather than reading it from my messages, say so and ask me. One short section per person, so I can turn each into its own file later.
-
-6. **Finish by telling me** to keep that chat open, because the files skill turns its answer into one file per person.
+5. **Finish by telling me** this chat now holds my First Team, and that the files skill turns it into one file per person that keeps itself current.
 
 ## Rules
 
 - One step at a time, and wait for done.
+- Read only meetings and threads where at least one person on my First Team is present. Leave out everything else: client calls, other jobs, interviews, personal meetings and classes.
 - Never change a setting, connect an app or create anything on my behalf without telling me first.
 - Never send, post or share anything.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.

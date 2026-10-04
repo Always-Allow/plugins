@@ -13,7 +13,7 @@ It takes the First Team answer from setup and turns it into one file per person,
 
 Work these out before step 1, then tell me what you found in one line so I can correct you.
 
-1. **My First Team answer.** The chat in this project where I ran the First Team prompt. If there is none, stop and tell me to run setup first.
+1. **My First Team answer.** The setup chat in this project, where setup found my First Team. If there is none, stop and tell me to run setup first.
 2. **Where you can write.** Check which of these you can create files in, and which you can also edit: Notion, Google Drive, OneDrive or SharePoint, and a folder on my computer.
 
 ## Steps

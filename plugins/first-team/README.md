@@ -10,7 +10,7 @@ It comes from Getting Practical about AI, an Always Allow session held with Prim
 
 | Skill | What it does | What you get back |
 |---|---|---|
-| [Setup](skills/setup/SKILL.md) | Walks you through making your First Team project, one step at a time, and ends with the First Team prompt | A project with the right settings, and your First Team with what each person is working on |
+| [Setup](skills/setup/SKILL.md) | Runs in the first chat of a new project called My First Team and walks you through the rest, one step at a time | Instructions, memory and context set, and your First Team with what each person is working on |
 | [Files](skills/files/SKILL.md) | Turns that answer into one file per person, in Notion, a folder on your computer, OneDrive or SharePoint, or Google Drive, and sets how often they update | The files, your first weekly dashboard, and the schedule |
 | [Refresh](skills/refresh/SKILL.md) | Builds the weekly dashboard every Monday, and updates each file on the schedule you chose | My First Team this week: where the team's time went, what it talked about, where you overlap, and up to four things to do |
 | [Prep](skills/prep/SKILL.md) | Preps you for any meeting with your First Team | What each person is focused on, where your team can help, and what you said you would bring |
