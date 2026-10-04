@@ -38,7 +38,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
    - **Google Drive:** a My First Team folder, one file per person. Updated in place if you can edit files there. If you can only create them, every file (each person's file and My baseline) is written as a new copy named with the date and time (About NAME 2026-10-04 0930.md, My baseline 2026-10-04 0930.md), every skill reads only the newest copy of each, and the old ones pile up until I clear them out.
    - **A folder on my computer:** a My First Team folder, one file per person, named About NAME.md. Only if you can reach a folder on my computer from this chat. A scheduled run may not reach it, so the files may only update when I run refresh myself.
 
-   The files hold notes on my peers and my own numbers, so the place must be private to me. Where you can see who has access (a Notion page inside a shared teamspace, a shared folder) and it is shared, do not recommend it. If I pick a place you can see is shared, say so once and wait for me to confirm before you write. Where you cannot see who has access, ask me to check before you write.
+   The files hold notes on my peers and my own numbers, so the place must be private to me. Where you can see who has access (a Notion page inside a shared teamspace, a shared folder) and it is shared, do not recommend it. If I pick a place you can see is shared, say it is not private and ask me to pick a private one: never write notes on my peers or my numbers there. Where you cannot see who has access, ask me to check before you write.
 
    The first time you mention a .md file, explain it in one line: a plain text file, words with a few symbols for headings and bullet points, that any AI reads cleanly and any computer can open.
 
