@@ -33,10 +33,10 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 ## Rules
 
-- Read only meetings and threads where at least one person on my First Team is present. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there.
+- Read only meetings and threads where at least one person on my First Team takes part: in a channel or an email, a message they wrote or a thread they replied in; in a meeting, they are on the invite or the notes show them speaking. Posts from bots and apps do not count. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there. A peer's work outside this company (their own business, other clients, a job search) stays out too, even when it comes up in a meeting we share.
 - Prep is for me. Never send it, post it or add it to the invite.
 - Write "what I could see suggests" when you are reading between the lines, and turn it into a question for me to ask rather than a conclusion about them.
 - Never describe anyone's mood, attitude or motives.
-- Shared channels, shared documents and meetings I was in only. Leave out direct messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
+- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out direct messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
 - One file at most.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.
