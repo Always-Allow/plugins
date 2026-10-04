@@ -35,23 +35,25 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    > Settings: none yet.
 
    Where they go:
-   - **ChatGPT:** the ··· menu on the project page, then Project settings, then Instructions.
+   - **ChatGPT:** copy the text above. In the sidebar, hover over My First Team, click its ··· menu, then Project settings. In the box that opens, click Advanced, paste into Custom instructions, then click Back at the bottom and Save.
    - **Claude:** on the project page, Instructions, then Add.
 
    Tell me the files skill fills in the Settings line later.
 
 2. **Check memory stays in this project.**
-   - **ChatGPT:** in Project settings, Memory should say Project-only. If it does not, change it there.
+   - **ChatGPT:** in the same Advanced box (··· menu, Project settings, Advanced), Memory should say Project-only. ChatGPT cannot change it after the project is made, so if it says anything else, make a new project called My First Team with Project-only memory and run setup there.
    - **Claude:** on the project page, Memory, then View, and switch off "Use account memory".
 
 3. **Add the leadership team's own material,** so every chat starts from it: the leadership team's folder, the rolling agenda or meeting notes doc, the plan for the quarter.
-   - **ChatGPT:** the Sources tab on the project page, then Add sources. ChatGPT can also take one Slack channel by its link, so add the leadership team's channel if there is one.
+   - **ChatGPT:** the same way as the instructions: in the sidebar, the ··· menu on My First Team, then Project settings, then Add next to Available sources. ChatGPT can also take one Slack channel by its link, so add the leadership team's channel if there is one. Then Save.
    - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a single Slack channel here, so add the channel's name to the instructions instead: "Read #leadership in Slack before you answer."
 
    Also check the apps my work lives in are connected (chat, email, calendar, meeting notes). Each one is optional, and the more I connect, the fewer questions I will be asked.
 
-4. **Find my First Team, right here in this chat.** Ask me in one message: my team, my company, my manager, and the names and functions of the people on my First Team. Then:
-   - Read my chat for the last 90 days, my email and my meeting notes. If none of those are connected, ask me questions instead.
+4. **Find my First Team, right here in this chat.** Look before you ask:
+   - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. Ask me to confirm or correct the list.
+   - Ask me only for what you could not find: my team, my company, my manager, or names you are unsure of. If nothing is connected, or a tool lets you see channel names but not messages, say so plainly and ask for all four in one message.
+   - Once the list is confirmed, read the same sources for each person.
    - For each person, tell me: what their priorities are right now, what the biggest blockers to those priorities are, and how my team can help.
    - Where you are guessing rather than reading it from my messages, say so and ask me.
    - One short section per person, so the files skill can turn each into its own file.
