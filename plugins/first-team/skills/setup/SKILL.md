@@ -47,7 +47,7 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    - **Claude:** on the project page, Memory, then View, and switch off "Use account memory".
 
 3. **Add the leadership team's own material,** so every chat starts from it: the leadership team's folder, the rolling agenda or meeting notes doc, the plan for the quarter.
-   - **ChatGPT:** the same way as the instructions: in the sidebar, the ··· menu on My First Team, then Project settings, then Add next to Available sources. ChatGPT can also take Slack channels by their links; the chat channels below go in here. Then Save.
+   - **ChatGPT:** click the new chat icon beside My First Team in the sidebar to open the project's page, then the Sources tab, then Add sources. ChatGPT can also take Slack channels by their links; the chat channels below go in here.
    - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a Slack channel here, so the chat channels below go into the instructions instead. Check each channel name against the channels I am in before suggesting it. If the Slack connection lists channels but cannot read their messages, say so plainly.
 
    **Chat channels (Slack or Teams).** The leadership channel alone gives a thin view. Look at the public channels I am in and propose a short list, grouped, for me to confirm:
@@ -55,7 +55,13 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    - each First Team member's own team or topic channel (their function's channel, for example #sales or #product);
    - where results get posted: wins, launches, announcements;
    - where customers' voices land: customer feedback, support escalations, churn or renewals.
-   Public channels only, never private ones or direct messages. Five to eight channels is plenty; if a group has no channel, say so and move on. Once I confirm, add them the tool's way: in ChatGPT, one Slack source per channel by its link (Project settings, then Add); in Claude, one line in the instructions, for example "Read #leadership, #sales, #product, #wins and #customer-feedback in Slack before you answer." The 7 day reading window covers all of them.
+   Public channels only, never private ones or direct messages. Five to eight channels is plenty; if a group has no channel, say so and move on. If the workspace looks far smaller than a company's would (a handful of channels, none of them a team's), say the Slack connection may be the wrong workspace or limited, and ask me to reconnect it before going on.
+
+   Once I confirm, add them the tool's way:
+   - **ChatGPT** takes at most five linked sources in a project. Rank the list and put the top five in as Slack sources; name the rest in the instructions, the way Claude does. Give me each channel's link ready to paste. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
+   - **Claude:** one line in the instructions, for example "Read #leadership, #sales, #product, #wins and #customer-feedback in Slack before you answer."
+
+   The 7 day reading window covers all of them.
 
    Also check the apps my work lives in are connected (chat, email, calendar, meeting notes). Each one is optional, and the more I connect, the fewer questions I will be asked.
 
