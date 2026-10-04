@@ -30,9 +30,9 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    >
    > Before you answer, read what you know about each person on my First Team. On a draft or a decision, tell me how each of them will read it.
    >
-   > How far back to read: the last 7 days of any channel, inbox, calendar or meeting notes, unless I say otherwise. If the question needs older context (a past decision, the quarter's plan, how a topic developed), read back only as far as that question needs, and say how far back you read.
+   > How far back to read: the last 7 days of any channel, inbox, calendar or meeting notes, unless I say otherwise or a First Team skill names its own period. If the question needs older context (a past decision, the quarter's plan, how a topic developed), read back only as far as that question needs, and say how far back you read.
    >
-   > Use shared channels, shared documents and meetings I was in only. Leave out direct messages between other people, anything said to me in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins. Never quote these notes in anything I send.
+   > What to read: only the sources linked to this project, the chat channels named in these instructions, and my email, calendar and meeting notes. Only meetings I was in, and threads where someone on my First Team takes part: a message they wrote or a thread they replied in. In a shared channel, a message from someone on my First Team counts even when I am not in that thread, and in the named shared channels my own posts count too, even when nobody replied. Posts from bots and apps do not count. Email threads I am on count; private messages between other people never do. A peer's work outside this company stays out. Leave out anything said to me in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins. Never quote these notes in anything I send.
    >
    > Settings: none yet.
 
@@ -55,18 +55,18 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    - each First Team member's own team or topic channel (their function's channel, for example #sales or #product);
    - where results get posted: wins, launches, announcements;
    - where customers' voices land: customer feedback, support escalations, churn or renewals.
-   Public channels only, never private ones or direct messages. Five to eight channels is plenty; if a group has no channel, say so and move on. If the workspace looks far smaller than a company's would (a handful of channels, none of them a team's), say the Slack connection may be the wrong workspace or limited, and ask me to reconnect it before going on.
+   Public channels only, never private ones or direct messages. Propose only channels with messages from people in the last 30 days, not only join messages or bot posts, and if a channel you would expect is quiet, say so and offer the busier one people actually use. Five to eight channels is plenty; if a group has no channel, say so and move on. The channels I confirm are the ones every First Team skill reads, so this list is the limit. If the workspace looks far smaller than a company's would (a handful of channels, none of them a team's), say the Slack connection may be the wrong workspace or limited, and ask me to reconnect it before going on.
 
    Once I confirm, add them the tool's way:
-   - **ChatGPT** takes at most five linked sources in a project, and the leadership material above counts toward them. Count the sources already linked, rank the channels, and fill only the slots that are left; name the rest in the instructions, the way Claude does. Give me each channel's link ready to paste. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
-   - **Claude:** one line in the instructions, for example "Read #leadership, #sales, #product, #wins and #customer-feedback in Slack before you answer."
+   - **ChatGPT** takes at most five linked sources in a project, and the leadership material above counts toward them. Count the sources already linked, rank the channels, and link only as many as the slots that are left. Name every confirmed channel in the instructions too, the way Claude does, including the linked ones, so the instructions hold the whole list. Give me each channel's link ready to paste. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
+   - **Claude:** one line in the instructions, for example "In Slack, read only #leadership, #sales, #product, #wins and #customer-feedback."
 
    The 7 day reading window covers all of them.
 
    Also check the apps my work lives in are connected (chat, email, calendar, meeting notes). Each one is optional, and the more I connect, the fewer questions I will be asked.
 
 4. **Find my First Team, right here in this chat.** Look before you ask:
-   - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. This is the one time setup reads that far back; after setup, the 7 day rule in the instructions applies. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. I am not on the list: my First Team is my peers, so leave me out even when I am in every meeting. Ask me to confirm or correct the list.
+   - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. This is the one time setup reads that far back; after setup, the 7 day rule in the instructions applies unless a First Team skill names its own period. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. I am not on the list: my First Team is my peers, so leave me out even when I am in every meeting. Ask me to confirm or correct the list.
    - Ask me only for what you could not find: my team, my company, my manager, or names you are unsure of. If nothing is connected, or a tool lets you see channel names but not messages, say so plainly and ask for all four in one message.
    - Once the list is confirmed, check the chat channels from step 3 still cover each person. If a confirmed person's own team or topic channel is missing, propose it and add it the same way as in step 3 before reading.
    - Then read the same sources for each person, including those chat channels, and say which ones you read.
@@ -79,7 +79,8 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 ## Rules
 
 - One step at a time, and wait for done.
-- Read only meetings and threads where at least one person on my First Team is present. Leave out everything else: client calls, other jobs, interviews, personal meetings and classes.
+- Read only meetings and threads where at least one person on my First Team takes part: in a channel or an email, a message they wrote or a thread they replied in (in the shared channels named in the project instructions, my own posts count too, even when nobody replied); in a meeting, they are on the invite or the notes show them speaking. Posts from bots and apps do not count. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there. A peer's work outside this company (their own business, other clients, a job search) stays out too, even when it comes up in a meeting we share.
+- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out private messages between other people, anything said to me in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
 - Never change a setting, connect an app or create anything on my behalf without telling me first.
 - Never send, post or share anything.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.

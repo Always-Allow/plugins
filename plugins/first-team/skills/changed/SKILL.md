@@ -24,7 +24,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 3. **Measure two things:**
    - **What the team talks about:** which topics come up in the leadership meeting and shared threads, as a share of what you can see in each window.
-   - **What each person works on:** the areas each peer's time and threads went to, as a share of what you can see.
+   - **What each person works on:** the areas each peer's meetings and threads went to, as a share of what you can see. Meetings and threads are activity you could see, never a measure of their time.
 
 4. **Lay it out as two columns,** the earlier window on the left and now on the right, one row per shift. Label each row **new**, **more often**, **less often** or **stopped appearing**, with the count behind it.
 
@@ -32,10 +32,10 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 ## Rules
 
-- Read only meetings and threads where at least one person on my First Team is present. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there.
+- Read only meetings and threads where at least one person on my First Team takes part: in a channel or an email, a message they wrote or a thread they replied in (in the shared channels named in the project instructions, my own posts count too, even when nobody replied); in a meeting, they are on the invite or the notes show them speaking. Posts from bots and apps do not count. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there. A peer's work outside this company (their own business, other clients, a job search) stays out too, even when it comes up in a meeting we share.
 - Measure what was said and done. Never score anyone's tone, mood, attitude or how engaged they seem.
 - A shift resting on a single meeting is a maybe, and the row should say so.
 - A change in a peer's work is a question I take to them, never a judgement about them.
-- Shared channels, shared documents and meetings I was in only. Leave out direct messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
+- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out private messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
 - Never quote any of it into something I send, and never copy it into another project.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.

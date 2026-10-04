@@ -14,7 +14,7 @@ It gets me ready to walk into a meeting with my First Team already knowing what 
 Work these out before step 1, then tell me what you found in one line so I can correct you.
 
 1. **Which meeting.** The next leadership meeting or the next meeting with one peer, from my calendar, unless I name another. Say which one, when, and who is in it.
-2. **Their files.** Read each attendee's First Team file from where the Settings line in the project instructions says they are kept. If the files are older than a week, say so and suggest running the refresh skill first.
+2. **Their files.** Read each attendee's First Team file from where the Settings line in the project instructions says they are kept. If the files are due under the update schedule in the Settings line, counting from each file's Last updated line, say so and suggest running the refresh skill first. If they update only when I ask, say when they were last updated and suggest running refresh and asking it to update the files if that is more than two weeks ago.
 3. **What you can actually reach,** and the dates it covers.
 
 ## Steps
@@ -33,10 +33,10 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 ## Rules
 
-- Read only meetings and threads where at least one person on my First Team is present. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there.
+- Read only meetings and threads where at least one person on my First Team takes part: in a channel or an email, a message they wrote or a thread they replied in (in the shared channels named in the project instructions, my own posts count too, even when nobody replied); in a meeting, they are on the invite or the notes show them speaking. Posts from bots and apps do not count. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there. A peer's work outside this company (their own business, other clients, a job search) stays out too, even when it comes up in a meeting we share.
 - Prep is for me. Never send it, post it or add it to the invite.
 - Write "what I could see suggests" when you are reading between the lines, and turn it into a question for me to ask rather than a conclusion about them.
 - Never describe anyone's mood, attitude or motives.
-- Shared channels, shared documents and meetings I was in only. Leave out direct messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
+- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out private messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
 - One file at most.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.

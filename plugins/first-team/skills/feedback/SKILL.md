@@ -29,8 +29,8 @@ Work these three out before step 1, then tell me what you found in one line so I
    - **No pushback:** I agreed to a peer's plan, date or number, and my own notes or messages show I had a concern.
    - **Unprepared:** the leadership meeting or a peer asked me for something specific and the record shows I did not bring it.
    - **Feedback owed:** I responded to a peer's work with praise or with nothing, and there is something elsewhere showing I had a different view.
-   - **Never raised:** a risk to the whole team reached me more than once and appears nowhere the team could act on it.
-   - **Only my function:** a stretch where everything I brought to the team was what my function needed, and nothing about theirs.
+   - **Never raised:** a risk to the whole team reached me more than once, and I could not find it raised anywhere the team could act on it in the sources you read.
+   - **Only my function:** a stretch where everything you could see me bring to the team was what my function needed, and nothing about theirs.
 
 5. **Show the evidence for each,** with the date and the meeting or message. Where the record shows what I did but not what I thought, put it to me as a question: "You agreed to Theo's launch date on 12 September. Did you have a concern at the time?" Never assert a doubt or an intention the sources do not contain.
 
@@ -38,12 +38,13 @@ Work these three out before step 1, then tell me what you found in one line so I
 
 ## Rules
 
-- Read only meetings and threads where at least one person on my First Team is present. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there.
+- Read only meetings and threads where at least one person on my First Team takes part: in a channel or an email, a message they wrote or a thread they replied in (in the shared channels named in the project instructions, my own posts count too, even when nobody replied); in a meeting, they are on the invite or the notes show them speaking. Posts from bots and apps do not count. Leave out everything else in my sources: client calls, other jobs, interviews, personal meetings and classes, even when they are the most recent thing there. A peer's work outside this company (their own business, other clients, a job search) stays out too, even when it comes up in a meeting we share.
 - Never send, schedule, post or file anything. This skill reads and drafts.
+- Not finding something in the sources you read is not proof it did not happen. For Never raised and Only my function, say which sources and dates you read, and ask me whether it happened somewhere you could not see before you count it.
 - A record of agreement is not proof of a private doubt. Where the evidence only shows what happened, give me the question rather than the conclusion.
 - Do not soften a finding the evidence supports.
 - Never score my tone, my mood or how I sounded.
-- Leave out health or family details anyone has told me, anything my company's AI policy rules out, messages I was not part of, and passwords or logins. If one of those is the only evidence for a moment, drop the moment.
+- Leave out health or family details anyone has told me, anything my company's AI policy rules out, private messages I was not part of, and passwords or logins. If one of those is the only evidence for a moment, drop the moment.
 - What you found out about a named peer stays in this chat. A draft addressed to that peer is the exception: it may say what I saw in their work, because that is the feedback I owed them. It never carries anything about a third person.
 - Five moments at most, because that is as many as I can act on.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.
