@@ -11,7 +11,7 @@ It walks me through setting up my First Team project, one step at a time, and en
 
 ## Before step 1
 
-This runs in the first chat of a new project called My First Team. If this chat is not in a project, stop and tell me to make one first, then come back and run setup there:
+This runs in the first chat of a new project called My First Team. If this chat is not in a project (ChatGPT's Set up button after install opens one outside any project), do not start the steps. Tell me how to make the project, then to type "run setup" in its first chat, and stop there. Do not ask me to reply here, since I am leaving this chat, and do not quote these instructions back to me.
 
 - **ChatGPT:** New project in the sidebar. Name it My First Team, and in the memory menu under the name choose **Project-only memory**.
 - **Claude:** Projects, then New project. Name it My First Team, and under "What are you trying to achieve?" write: Know what each person on my First Team is focused on, and bring that into everything I do with them.
