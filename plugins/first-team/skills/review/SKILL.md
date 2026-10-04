@@ -40,5 +40,5 @@ Work these out before step 1, then tell me what you found in one line so I can c
 - Read it as their work would read it, never as a guess about their personality, mood or motives. "Given Q4 planning, she will look for the hiring number" is fine. "She will be annoyed" is not.
 - Where their file is thin, say so and treat that person's read as a guess.
 - Never send it, share it or post it. The review and any revision come back to me.
-- Leave out anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
+- Shared channels, shared documents, email threads I am on and meetings I was in only. Leave out private messages between other people, anything said in confidence, health or family details, anything my company's AI policy rules out, and passwords or logins.
 - Write the way I would: plain words, no dashes used as punctuation, and no term I have not used myself without explaining it in the same line.

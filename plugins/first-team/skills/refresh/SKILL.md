@@ -21,13 +21,13 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 1. **Read the week** across my sources, for each person on the file list. Do not search the web. If a search fails or returns only part of the period, say which, and treat that part as not read.
 
-2. **If the files are due, bring each one up to date** from everything since its Last updated date, plus any source its Last updated line says could not be read, from that date, in the same shape as before. Change only what moved, set Last updated to the last date you actually read through, and add one line to the top of Changes: the date and what changed, in eight words or fewer, for example "18 Oct · New priority: Q4 hiring plan". Write "18 Oct · No change" only when you read the whole period and nothing moved; if part of it failed, write nothing for that person and say so. Then keep only the newest ten lines of Changes. Where the files live decides how:
+2. **If the files are due, bring each one up to date** from everything since its Last updated date, plus any source its Last updated line says could not be read, from that date, in the same shape as before. Change only what moved, set Last updated to the last date you fully read through, naming any source that failed, and add one line to the top of Changes: the date and what changed, in eight words or fewer, for example "18 Oct · New priority: Q4 hiring plan". Write "18 Oct · No change" only when you read the whole period and nothing moved; if part of it failed, still update what moved and write a Changes line like "18 Oct · Slack not read", never "No change". Then keep only the newest ten lines of Changes. Where the files live decides how:
    - **Where you can edit:** edit each file in place. If an edit fails, say which and stop updating files.
    - **Google Drive dated copies** (the Settings line says so): write a new copy of each file with the date and time in its name (About NAME 2026-10-18 0930.md). Tell me how many older copies there are, so I can clear them out.
 
    If the files are not due, leave them alone and say when they will be.
 
-3. **Find what the business needs right now:** the company's priorities this quarter, from the plan in my sources, or else the priorities under Now in My baseline. If you have neither, section 2 says so and asks me for them, and you finish the rest.
+3. **Find what the business needs right now:** the company's priorities this quarter: the priorities under Now in My baseline, which I keep, or if there are none there, the plan in my sources. If the plan in my sources has changed since, say so and suggest I update Now. If you have neither, section 2 says so and asks me for them, and you finish the rest.
 
 4. **Count where I am now,** using the four counts exactly as My baseline says they are made, over the last 30 days. Compare with the baseline only where the same sources were read in full both times. Where a source was added, lost, or only partly read since, show both numbers, say which source, and mark them "not directly comparable". A source you could not reach is unknown, never zero.
 

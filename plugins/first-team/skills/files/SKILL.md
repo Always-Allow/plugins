@@ -20,7 +20,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 1. **My First Team answer.** The setup chat in this project, where setup found my First Team. If there is none, stop and tell me to run setup first. If setup left questions I never answered (for example whether I have a team under me, or whether the functions are right), ask them now, in one message, and wait.
 2. **My sources.** The sources linked to this project, the chat channels named in the project instructions, and my connected email, calendar and meeting notes. That is the whole list; read nothing else.
 3. **Where you can write.** For each of Notion, OneDrive or SharePoint, Google Drive, and a folder on my computer: whether the tools you have here let you create files there, and whether they also let you edit them. Judge from the tools you have and never write a test file.
-4. **Whether this is a re-run.** If the Settings line already names where my files are kept and the person files are there, this is a re-run: see "Running it again" below. If My baseline is not there yet, take the baseline (steps 1, 5, 6, 7 and 8) and keep everything else as it is.
+4. **Whether this is a re-run.** If the Settings line already names where my files are kept and the person files are there, this is a re-run: see "Running it again" below. If My baseline is not there yet, take the baseline (steps 1, 5, 6, 7 and 8), ask me where my existing dashboard is and write it on the Dashboard line, and keep everything else as it is.
 
 ## Steps
 

@@ -32,7 +32,7 @@ The files use them for three reasons:
 
 ## What they read, and what they leave alone
 
-They read only meetings you were in, and threads in your named channels and email where someone on your First Team takes part: a message they wrote or a thread they replied in. They leave out direct messages between other people, anything said to you in confidence, health or family details, anything your company's AI policy rules out, and passwords. None of them sends, posts or shares anything: they read, they show you what they found and where, and they draft. Sending stays yours.
+They read only meetings you were in, and threads in your named channels, and email threads you're on, where someone on your First Team takes part: a message they wrote or a thread they replied in. They leave out direct messages between other people, anything said to you in confidence, health or family details, anything your company's AI policy rules out, and passwords. None of them sends, posts or shares anything: they read, they show you what they found and where, and they draft. Sending stays yours.
 
 Keep memory inside the project before you use them (Project-only memory in ChatGPT, account memory switched off in Claude), so what they find about your peers stays in this project.
 
