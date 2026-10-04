@@ -66,10 +66,10 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    Also check the apps my work lives in are connected (chat, email, calendar, meeting notes). Each one is optional, and the more I connect, the fewer questions I will be asked.
 
 4. **Find my First Team, right here in this chat.** Look before you ask:
-   - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. This is the one time setup reads that far back; after setup, the 7 day rule in the instructions applies. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. Ask me to confirm or correct the list.
+   - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. This is the one time setup reads that far back; after setup, the 7 day rule in the instructions applies. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. I am not on the list: my First Team is my peers, so leave me out even when I am in every meeting. Ask me to confirm or correct the list.
    - Ask me only for what you could not find: my team, my company, my manager, or names you are unsure of. If nothing is connected, or a tool lets you see channel names but not messages, say so plainly and ask for all four in one message.
-   - Once the list is confirmed, read the same sources for each person.
-   - For each person, tell me: what their priorities are right now, what the biggest blockers to those priorities are, and how my team can help.
+   - Once the list is confirmed, read the same sources for each person, including the chat channels added in step 3, and say which ones you read.
+   - For each person, tell me: what their priorities are right now, what the biggest blockers to those priorities are, and how my team can help (that is me and the people who report to me, never the other peers on the list).
    - Where you are guessing rather than reading it from my messages, say so and ask me.
    - One short section per person, so the files skill can turn each into its own file.
 
