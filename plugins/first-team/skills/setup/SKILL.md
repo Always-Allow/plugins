@@ -26,7 +26,7 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
 1. **Ask about channels and groups, then give me the instructions to paste.** First ask, in one message: "Is there a Slack or Teams channel, or a Google group or email alias, that your leadership team uses? Give me the channel's name (for Slack, its link works too) or the group's address, or say none." Wait for my answer.
 
-   If I name a channel without saying whether it is in Slack or Teams, ask me which. Do not read any channel's messages yet: memory is not locked down until step 2. Leave out anything that is not a channel, such as a group chat or a direct message. If you can see the list of channels I am in, check each one I name is on it; if one is not, say so plainly and leave it out. If you cannot see the list, write each one in as I gave it and tell me it is not checked yet. Whether a channel is active is checked at the end of step 3. If I pasted only a link and you cannot see the channel's name, ask me for the name; keep a Slack link for step 3.
+   If I name a channel without saying whether it is in Slack or Teams, ask me which. Do not read any channel's messages yet: memory is not locked down until step 2. Leave out anything that is not a channel, such as a group chat or a direct message, and say so plainly. If you can see the list of channels I am in, check each one I name is on it; if one is not, say so plainly and leave it out. If you cannot see the list, write each one in as I gave it and tell me it is not checked yet. Whether a channel is active is checked at the end of step 3. If I pasted only a link and you cannot see the channel's name, ask me for the name; keep a Slack link for step 3.
 
    Then give me the instructions below in one code block, so it has its own Copy button, and tell me to copy it with that button, not the one under your reply (that one copies the whole reply). Add lines just above the Settings line, in this order: a channels line for each chat app I named, "In Slack, read only #leadership." and "In Teams, read only #exec-team.", then one groups line, "Read email sent to leadership@yourco.com." Leave out a line I gave nothing for, and all of them if I said none.
 
@@ -48,7 +48,7 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
    Tell me the files skill fills in the Settings line later.
 
-   If step 3 changes the channels or the groups, give me that line again in full, in a code block, to replace the old one; the other lines stay as they are. A line step 3 adds for the first time goes in the same place, just above the Settings line, channels lines first.
+   If step 3 changes the channels or the groups, give me that line again in full, in a code block, to replace the old one; the other lines stay as they are. A line step 3 adds for the first time goes with the others just above the Settings line, channels lines before the groups line.
 
 2. **Check memory stays in this project.**
    - **ChatGPT:** in the same Advanced box (··· menu, Project settings, Advanced), Memory should say Project-only. ChatGPT cannot change it after the project is made, so if it says anything else, make a new project called My First Team with Project-only memory and run setup there.
@@ -67,7 +67,7 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
    Once I confirm, add them the tool's way:
    - **ChatGPT** takes at most five linked sources in a project, and the leadership material above counts toward them. Count the sources already linked, rank the channels, and link only as many as the slots that are left. Name every confirmed channel in the instructions too, the way Claude does, including the linked ones, so the instructions hold the whole list. Give me each Slack channel's link ready to paste; a Teams channel cannot be linked, so it stays in the channels line only. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
-   - **Claude:** one line in the instructions, for example "In Slack, read only #leadership, #sales, #product, #wins and #customer-feedback." If there is already a channels line for that app from step 1, give me that line again in full with the new channels added, to replace it; never fold channels into the groups line.
+   - **Claude:** one line in the instructions for each chat app, for example "In Slack, read only #leadership, #sales, #product, #wins and #customer-feedback." and, if I also use Teams, its own "In Teams, read only …" line. If there is already a channels line for that app from step 1, give me that line again in full with the new channels added, to replace it; never fold channels into the groups line.
 
    **Google groups and email aliases.** A group or alias goes in the groups line ("Read email sent to leadership@yourco.com."), in both tools, never as a linked source. If I named one at step 1 it is already there; a new one is added to that line, given again in full.
 
