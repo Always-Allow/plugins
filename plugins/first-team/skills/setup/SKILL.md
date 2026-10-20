@@ -24,7 +24,13 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
 ## Steps
 
-1. **Paste these instructions** into the project's instructions:
+1. **Ask about channels and groups, then give me the instructions to paste.** First ask, in one message: "Is there a Slack or Teams channel, or a Google group or email alias, that your leadership team uses? Give me the channel's name (for Slack, its link works too) or the group's address, or say none." Wait for my answer.
+
+   If I name a channel without saying whether it is in Slack or Teams, ask me which. Do not read any channel's messages yet: memory is not locked down until step 2. Leave out anything that is not a channel, such as a group chat or a direct message, and say so plainly. If you can see the list of channels I am in, check each one I name is on it; if one is not, say so plainly and leave it out. If you cannot see the list, write each one in as I gave it and tell me it is not checked yet. Whether a channel is active is checked at the end of step 3. If I pasted only a link and you cannot see the channel's name, ask me for the name; keep a Slack link for step 3.
+
+   Then give me the instructions below in one code block, so it has its own Copy button, and tell me to copy it with that button, not the one under your reply (that one copies the whole reply). Add lines just above the Settings line, in this order: a channels line for each chat app I named, "In Slack, read only #leadership." and "In Teams, read only #exec-team.", then one groups line, "Read email sent to leadership@yourco.com." Leave out a line I gave nothing for, and all of them if I said none.
+
+   The instructions:
 
    > This project is about my First Team: the most senior team I sit on, where each of us owns a function of the business. Not the people who report to me, and not everyone I work with.
    >
@@ -42,28 +48,34 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
    Tell me the files skill fills in the Settings line later.
 
+   If step 3 changes the channels or the groups, give me that line again in full, in a code block, to replace the old one; the other lines stay as they are. A line step 3 adds for the first time goes with the others just above the Settings line, channels lines before the groups line.
+
 2. **Check memory stays in this project.**
    - **ChatGPT:** in the same Advanced box (··· menu, Project settings, Advanced), Memory should say Project-only. ChatGPT cannot change it after the project is made, so if it says anything else, make a new project called My First Team with Project-only memory and run setup there.
    - **Claude:** on the project page, Memory, then View, and switch off "Use account memory".
 
 3. **Add the leadership team's own material,** so every chat starts from it: the leadership team's folder, the rolling agenda or meeting notes doc, the plan for the quarter.
-   - **ChatGPT:** click the new chat icon beside My First Team in the sidebar to open the project's page, then the Sources tab, then Add sources. ChatGPT can also take Slack channels by their links; the chat channels below go in here.
-   - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a Slack channel here, so the chat channels below go into the instructions instead. Check each channel name against the channels I am in before suggesting it. If the Slack connection lists channels but cannot read their messages, say so plainly.
+   - **ChatGPT:** click the new chat icon beside My First Team in the sidebar to open the project's page, then the Sources tab, then Add sources. ChatGPT can also take Slack channels by their links; the Slack channels below go in here, and Teams channels go in the instructions.
+   - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a Slack or Teams channel here, so the chat channels below go into the instructions instead. Check each channel name against the channels I am in before suggesting it. If the chat connection lists channels but cannot read their messages, say so plainly.
 
-   **Chat channels (Slack or Teams).** The leadership channel alone gives a thin view. Look at the public channels I am in and propose a short list, grouped, for me to confirm:
+   **Chat channels (Slack or Teams).** Start from any channel from step 1 that made it into a channels line. The leadership channel alone gives a thin view. Look at the channels I am in and propose a short list, grouped, for me to confirm:
    - the leadership or exec channel, if there is one;
    - each First Team member's own team or topic channel (their function's channel, for example #sales or #product);
    - where results get posted: wins, launches, announcements;
    - where customers' voices land: customer feedback, support escalations, churn or renewals.
-   Public channels only, never private ones or direct messages. Propose only channels with messages from people in the last 30 days, not only join messages or bot posts, and if a channel you would expect is quiet, say so and offer the busier one people actually use. Five to eight channels is plenty; if a group has no channel, say so and move on. The channels I confirm are the ones every First Team skill reads, so this list is the limit. If the workspace looks far smaller than a company's would (a handful of channels, none of them a team's), say the Slack connection may be the wrong workspace or limited, and ask me to reconnect it before going on.
+   Public channels, and private ones I am in; never direct messages. Propose only channels with messages from people in the last 30 days, not only join messages or bot posts, and if a channel you would expect is quiet, say so and offer the busier one people actually use. Five to eight channels is plenty; if a group has no channel, say so and move on. The channels I confirm are the ones every First Team skill reads, so this list is the limit. If the workspace looks far smaller than a company's would (a handful of channels, none of them a team's), say the chat connection may be the wrong workspace or limited, and ask me to reconnect it before going on.
 
    Once I confirm, add them the tool's way:
-   - **ChatGPT** takes at most five linked sources in a project, and the leadership material above counts toward them. Count the sources already linked, rank the channels, and link only as many as the slots that are left. Name every confirmed channel in the instructions too, the way Claude does, including the linked ones, so the instructions hold the whole list. Give me each channel's link ready to paste. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
-   - **Claude:** one line in the instructions, for example "In Slack, read only #leadership, #sales, #product, #wins and #customer-feedback."
+   - **ChatGPT** takes at most five linked sources in a project, and the leadership material above counts toward them. Count the sources already linked, rank the channels, and link only as many as the slots that are left. Name every confirmed channel in the instructions too, the way Claude does, including the linked ones, so the instructions hold the whole list. Give me each Slack channel's link ready to paste; a Teams channel cannot be linked, so it stays in the channels line only. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
+   - **Claude:** one line in the instructions for each chat app, for example "In Slack, read only #leadership, #sales, #product, #wins and #customer-feedback." and, if I also use Teams, its own "In Teams, read only …" line. If there is already a channels line for that app from step 1, give me that line again in full with the new channels added, to replace it; never fold channels into the groups line.
+
+   **Google groups and email aliases.** A group or alias goes in the groups line ("Read email sent to leadership@yourco.com."), in both tools, never as a linked source. If I named one at step 1 it is already there; a new one is added to that line, given again in full.
 
    The 7 day reading window covers all of them.
 
    Also check the apps my work lives in are connected (chat, email, calendar, meeting notes). Each one is optional, and the more I connect, the fewer questions I will be asked.
+
+   **Check the channels lines before step 4.** Check each line against its own app. If that chat app is connected by now, check every channel in its line against the rules above, including any from step 1; if one fails, tell me and give me the line again without it, and if that leaves no channels, tell me to delete the line. In ChatGPT, if a channel that fails was linked under Sources, tell me to remove it there too. If the connection lists my channels but cannot read their messages, check only that I am in each one and say plainly the 30-day check could not be done. If that chat app is still not connected, tell me plainly that the channels in its line are not checked and nothing can read them until I connect it. If there is a groups line and my email is not connected, tell me plainly that nothing can read that line until I connect my email.
 
 4. **Find my First Team, right here in this chat.** Look before you ask:
    - If my chat, email, calendar or meeting notes are connected, read the last 90 days first. This is the one time setup reads that far back; after setup, the 7 day rule in the instructions applies unless a First Team skill names its own period. Find the recurring meetings and channels where the same senior people show up with me, and propose who my First Team is: each person's name and the function they own, with one line on what you saw. I am not on the list: my First Team is my peers, so leave me out even when I am in every meeting. Ask me to confirm or correct the list.
