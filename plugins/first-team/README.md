@@ -46,7 +46,7 @@ Download `first-team.zip` from the [latest release](https://github.com/Always-Al
 2. **When it asks "Do you want to set up this plugin?", choose Maybe later.** Setup has to run inside a project, and a chat started from that button cannot be moved into one.
 3. **Create the project.** New project in the sidebar. Name it My First Team, and in the memory menu under the name choose Project-only memory. ChatGPT cannot change this later.
 4. **Start setup in the project.** Click the new chat icon beside My First Team in the sidebar. In the box, type `@first`, pick first-team from the list, type `setup`, and send. The @ menu finds plugins by name, so `@setup` on its own will not find it.
-5. **Follow setup one step at a time.** It asks whether your leadership team uses a channel or a Google group, then gives you the instructions to paste (sidebar, the three dots beside My First Team, Project settings, Advanced, paste, Back, Save), checks memory, suggests the Slack or Teams channels to add (a project takes five linked sources: Sources tab, Add sources, paste each link), then finds your First Team.
+5. **Follow setup one step at a time.** It asks whether your leadership team uses a channel or a Google group, then gives you the instructions to copy with their own Copy button and paste (sidebar, the three dots beside My First Team, Project settings, Advanced, paste, Back, Save), checks memory, suggests the Slack or Teams channels to add (Slack channels are linked as sources, five per project: Sources tab, Add sources, paste each link; Teams channels go in the instructions), then finds your First Team.
 
 To install an updated version, use chatgpt.com: the Mac app cannot refresh an installed plugin.
 
@@ -55,7 +55,7 @@ To install an updated version, use chatgpt.com: the Mac app cannot refresh an in
 1. **Install the plugin.** Customize, then Plugins, then Add, then Upload plugin. Drop in `first-team.zip`.
 2. **Create the project.** Projects, then New project. Name it My First Team, and under "What are you trying to achieve?" write: Know what each person on my First Team is focused on, and bring that into everything I do with them.
 3. **Start setup in the project.** In its first chat, type `/`, pick setup from the list (it shows as `/first-team:setup`), and send.
-4. **Follow setup one step at a time.** It asks whether your leadership team uses a channel or a Google group, then gives you the instructions to paste (the project page, Instructions), has you switch off "Use account memory" (Memory, then View), suggests the Slack channels to name in the instructions, then finds your First Team.
+4. **Follow setup one step at a time.** It asks whether your leadership team uses a channel or a Google group, then gives you the instructions to copy with their own Copy button and paste (the project page, Instructions), has you switch off "Use account memory" (Memory, then View), suggests the Slack or Teams channels to name in the instructions, then finds your First Team.
 
 Both tools end the same way: your First Team in the chat, one section per person with their priorities, blockers and how your team can help. Then run Files to turn it into one file per person.
 
