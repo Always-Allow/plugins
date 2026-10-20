@@ -24,9 +24,11 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
 ## Steps
 
-1. **Ask about channels and groups, then give me the instructions to paste.** First ask, in one message: "Is there a Slack or Teams channel, or a Google group or email alias, that your leadership team uses? Paste the channel's link or name, or the group's address, or say none." Wait for my answer.
+1. **Ask about channels and groups, then give me the instructions to paste.** First ask, in one message: "Is there a Slack or Teams channel, or a Google group or email alias, that your leadership team uses? Give me the channel's name (for Slack, its link works too) or the group's address, or say none." Wait for my answer.
 
-   Then give me the instructions below. For anything I named, add a line just above the Settings line: for a channel, "In Slack, read only #leadership." (Teams the same way); for a group or alias, "Read email sent to leadership@yourco.com." Use the names I gave; if I pasted only a channel's link and you cannot see its name, ask me for the name, and keep the link for step 3. If you can see the channels I am in, check each name against them and ask me about any you cannot find. If I said none, leave the line out.
+   Channels follow the same rules as step 3: public channels only, with messages from people in the last 30 days. If you can see my channels, check each one I name against those rules; if one is private, quiet or not there, say so plainly and leave it out. If you cannot see my channels, write each one in as I gave it and say step 3 checks it once my chat app is connected. If I pasted only a Slack link and you cannot see the channel's name, ask me for the name, and keep the link for step 3.
+
+   Then give me the instructions below, with up to two lines added just above the Settings line, in this order: one channels line, "In Slack, read only #leadership." (Teams the same way), and one groups line, "Read email sent to leadership@yourco.com." Leave out a line I gave nothing for, and both if I said none.
 
    The instructions:
 
@@ -46,7 +48,7 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
    Tell me the files skill fills in the Settings line later.
 
-   If I add or confirm more channels or groups at step 3, give me the whole line again with them added, to replace the old one.
+   If step 3 changes the channels or the groups, give me that line again in full, to replace the old one; the other line stays as it is. A line step 3 adds for the first time goes in the same place, just above the Settings line, channels line first.
 
 2. **Check memory stays in this project.**
    - **ChatGPT:** in the same Advanced box (··· menu, Project settings, Advanced), Memory should say Project-only. ChatGPT cannot change it after the project is made, so if it says anything else, make a new project called My First Team with Project-only memory and run setup there.
@@ -56,7 +58,7 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
    - **ChatGPT:** click the new chat icon beside My First Team in the sidebar to open the project's page, then the Sources tab, then Add sources. ChatGPT can also take Slack channels by their links; the chat channels below go in here.
    - **Claude:** on the project page, Context, then Add: Drive, Notion, a file, or a folder on my computer. Claude cannot add a Slack channel here, so the chat channels below go into the instructions instead. Check each channel name against the channels I am in before suggesting it. If the Slack connection lists channels but cannot read their messages, say so plainly.
 
-   **Chat channels (Slack or Teams).** Start from any channel I named at step 1: it is already in the instructions. The leadership channel alone gives a thin view. Look at the public channels I am in and propose a short list, grouped, for me to confirm:
+   **Chat channels (Slack or Teams).** Start from any channel I named at step 1: it is already in the channels line. If my chat app is connected now and one of them fails the rules below, tell me and take it out of the line. The leadership channel alone gives a thin view. Look at the public channels I am in and propose a short list, grouped, for me to confirm:
    - the leadership or exec channel, if there is one;
    - each First Team member's own team or topic channel (their function's channel, for example #sales or #product);
    - where results get posted: wins, launches, announcements;
@@ -65,9 +67,9 @@ Say once, at the start, which tool you are running in, Claude or ChatGPT, and gi
 
    Once I confirm, add them the tool's way:
    - **ChatGPT** takes at most five linked sources in a project, and the leadership material above counts toward them. Count the sources already linked, rank the channels, and link only as many as the slots that are left. Name every confirmed channel in the instructions too, the way Claude does, including the linked ones, so the instructions hold the whole list. Give me each channel's link ready to paste. A Slack channel link is the workspace address plus the channel's ID: https://WORKSPACE.slack.com/archives/CHANNEL_ID. If you can see the channel IDs but not the workspace address, ask me for one link (in Slack, the channel's name, then Copy link) and build the rest from it. Never make up an ID.
-   - **Claude:** one line in the instructions, for example "In Slack, read only #leadership, #sales, #product, #wins and #customer-feedback." If there is already a line from step 1, give me the whole line again with the new channels added, to replace it.
+   - **Claude:** one line in the instructions, for example "In Slack, read only #leadership, #sales, #product, #wins and #customer-feedback." If there is already a channels line from step 1, give me that line again in full with the new channels added, to replace it; never fold channels into the groups line.
 
-   **Google groups and email aliases.** A group or alias goes in the instructions as a line ("Read email sent to leadership@yourco.com."), in both tools, never as a linked source. If I named one at step 1 it is already there.
+   **Google groups and email aliases.** A group or alias goes in the groups line ("Read email sent to leadership@yourco.com."), in both tools, never as a linked source. If I named one at step 1 it is already there; a new one is added to that line, given again in full.
 
    The 7 day reading window covers all of them.
 
