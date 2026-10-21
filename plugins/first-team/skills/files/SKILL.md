@@ -84,7 +84,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
     - **Claude:** on the project page, Scheduled, then Add. Ask it to run the refresh skill every other Monday morning.
     - **ChatGPT:** look for scheduled tasks. If you are not sure where it is in my version, say what it is called and ask me to look for it rather than guessing a path.
 
-    Then say, in one line, that a schedule is not proof the run works, and to open the dashboard on the first Monday it is scheduled to run and run refresh myself if it did not update. If my tool cannot schedule anything, say so and tell me to run refresh myself every other Monday.
+    Then say, in one line, that a schedule is not proof the run works, and to open the dashboard on the first Monday it is scheduled to run and run refresh myself if it did not update. If the schedule cannot be set to every other week, a weekly run works too: refresh always reads the last two weeks, and the files keep their own schedule. If my tool cannot schedule anything, say so and tell me to run refresh myself every other Monday.
 
 ## Running it again
 

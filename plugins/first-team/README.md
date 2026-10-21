@@ -28,7 +28,7 @@ The files use them for three reasons:
 
 - **Every AI reads them cleanly.** There is no formatting for it to work around, so it reads exactly what is on the page.
 - **They work everywhere.** The same file opens in Claude, ChatGPT, Notion, OneDrive or a folder on your computer, so you are never locked into one tool.
-- **They are easy to rewrite.** The Refresh skill changes the lines that moved each time it runs without breaking the rest of the file.
+- **They are easy to rewrite.** When the files are due, or when you ask, the Refresh skill changes only the lines that moved, without breaking the rest of the file.
 
 ## What they read, and what they leave alone
 
