@@ -42,7 +42,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
    The first time you mention a .md file, explain it in one line: a plain text file, words with a few symbols for headings and bullet points, that any AI reads cleanly and any computer can open.
 
-3. **How often should the files update?** Recommend every two weeks, so they update each time the dashboard does; the other choice is only when I ask. The dashboard updates every other Monday whichever I pick. Wait for my answer.
+3. **How often should the files update?** Recommend every two weeks; the other choice is only when I ask. The dashboard updates every other Monday whichever I pick. Wait for my answer.
 
 4. **Write one file per person** from my First Team answer and the last 30 days of my sources, in this shape and nothing more:
    - **Their function, and what they own**

@@ -5,7 +5,7 @@
     {
       "name": "first-team",
       "source": "./plugins/first-team",
-      "description": "Work as a member of your First Team: one page per peer that keeps itself current, a view of the whole team every other week, and skills to prep, review and get feedback."
+      "description": "Work as a member of your First Team: one page per peer that keeps itself current, a view of the whole team every other Monday, and skills to prep, review and get feedback."
     }
   ]
 }
