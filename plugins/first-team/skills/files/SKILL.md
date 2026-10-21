@@ -1,13 +1,13 @@
 ---
 name: files
-description: "Take my baseline, then turn my First Team answer into one file per person that keeps itself current: choose where the files are kept and how often they update, write them, count where I start, build the first weekly dashboard and set the schedule. Run after setup."
+description: "Take my baseline, then turn my First Team answer into one file per person that keeps itself current: choose where the files are kept and how often they update, write them, count where I start, build the first dashboard and set the schedule. Run after setup."
 ---
 
 # Files
 
 ## What this skill does
 
-It takes the First Team answer from setup and turns it into one file per person, kept somewhere every other First Team skill can read and the refresh skill can rewrite, so nobody updates them by hand. Before it writes anything, it takes my baseline: where I am now, written down before anything is built, so I can see later whether it worked. Then it recommends where the files go and how often they update, writes them, counts my starting numbers, builds my first weekly dashboard, and sets the schedule.
+It takes the First Team answer from setup and turns it into one file per person, kept somewhere every other First Team skill can read and the refresh skill can rewrite, so nobody updates them by hand. Before it writes anything, it takes my baseline: where I am now, written down before anything is built, so I can see later whether it worked. Then it recommends where the files go and how often they update, writes them, counts my starting numbers, builds my first dashboard, and sets the schedule.
 
 ## How to run it
 
@@ -42,7 +42,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
    The first time you mention a .md file, explain it in one line: a plain text file, words with a few symbols for headings and bullet points, that any AI reads cleanly and any computer can open.
 
-3. **How often should the files update?** Recommend every two weeks; the other choices are every Monday, or only when I ask. The dashboard updates every Monday whichever I pick. Wait for my answer.
+3. **How often should the files update?** Recommend every two weeks; the other choice is only when I ask. The dashboard updates every other Monday whichever I pick. Wait for my answer.
 
 4. **Write one file per person** from my First Team answer and the last 30 days of my sources, in this shape and nothing more:
    - **Their function, and what they own**
@@ -56,7 +56,7 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 5. **Check my memory against the files.** For each person, put my answer to the first baseline question beside the priorities in their file. Mark each one: top priority (their file ranks its priorities and my answer is the first), one of their priorities (my answer is in their file, but the file does not rank them or puts it lower), different (it is not among them), or not clear (their file has no priorities you could find, or I said I don't know). Count only the clear ones, and keep the two kinds of match apart, for example "You had 2 of 3: one top priority, one of their listed priorities; Marcus's file has no priorities yet." Where I named something their file does not have, say so, because it may belong in the file. A miss is the point of the files, never a mark against me.
 
-6. **Find the company's priorities this quarter** in the plan or the leadership material in my sources. If there is no plan there, ask me for them now, and wait. Refresh uses these every Monday.
+6. **Find the company's priorities this quarter** in the plan or the leadership material in my sources. If there is no plan there, ask me for them now, and wait. Refresh uses these every other Monday.
 
 7. **Count where I start.** From the last 30 days of my sources, count these four exactly as written here. All four are about me, never a score of a peer.
    - **Asks answered.** An ask is a question or request a person on my First Team put to me by name, or in a thread with me where a reply from me is expected, in a channel, an email or meeting notes. The same ask in several places counts once. Answered means I replied or did it, anywhere in my sources. Show the asks, how many were answered, and the median hours to my first written reply (half were faster, half slower), using only asks I answered in writing. With no asks, show "No asks this period"; with asks but no written replies, show "No written replies to measure", never zero hours.
@@ -67,12 +67,12 @@ Work these out before step 1, then tell me what you found in one line so I can c
    Write down which sources you read and the exact dates. If a search failed or returned only part of the period, say so and mark the count partial. A source you could not reach is unknown, never zero.
 
 8. **Write my baseline file,** called My baseline, next to the person files, in two parts:
-   - **Baseline, [today's date].** Never changed after today: my four answers from step 1, the memory check from step 5, the four counts from step 7 with the sources and dates they came from, and how each count is made, copied word for word from step 7, so every Monday counts the same way.
+   - **Baseline, [today's date].** Never changed after today: my four answers from step 1, the memory check from step 5, the four counts from step 7 with the sources and dates they came from, and how each count is made, copied word for word from step 7, so every refresh counts the same way.
    - **Now.** My team's blockers from step 1, the company's priorities from step 6 (I can change both here when they change), and a line "Dashboard:" left empty for refresh to fill in.
 
 9. **Fill in the Settings line** of the project instructions, and give it to me to paste over the old one:
 
-   > Settings: Files are kept in [the exact place, with its ID or link where it has one, for example the Notion page My First Team (page ID 3ef5...), or the folder Documents/My First Team on my computer], with My baseline beside them. Files update [how often]. The dashboard updates every Monday.
+   > Settings: Files are kept in [the exact place, with its ID or link where it has one, for example the Notion page My First Team (page ID 3ef5...), or the folder Documents/My First Team on my computer], with My baseline beside them. Files update [how often]. The dashboard updates every other Monday.
 
    If the files are Google Drive dated copies, add: "Every file there is a dated copy: read only the newest copy of each, by the date and time in its name; if two copies share a name, the one Drive shows as modified most recently."
 
@@ -80,11 +80,11 @@ Work these out before step 1, then tell me what you found in one line so I can c
 
 10. **Build my first dashboard** by running the refresh skill now, and show me where it is. Wait until I have opened it.
 
-11. **Set the schedule.** If you can create a scheduled task yourself from this chat, offer to: the refresh skill every Monday morning, with a time suggested, and create it once I say yes. Otherwise walk me through it one step at a time, and wait for done.
-    - **Claude:** on the project page, Scheduled, then Add. Ask it to run the refresh skill every Monday morning.
+11. **Set the schedule.** If you can create a scheduled task yourself from this chat, offer to: the refresh skill every other Monday morning, with a time suggested, and create it once I say yes. Otherwise walk me through it one step at a time, and wait for done.
+    - **Claude:** on the project page, Scheduled, then Add. Ask it to run the refresh skill every other Monday morning.
     - **ChatGPT:** look for scheduled tasks. If you are not sure where it is in my version, say what it is called and ask me to look for it rather than guessing a path.
 
-    Then say, in one line, that a schedule is not proof the run works, and to open the dashboard next Monday and run refresh myself if it did not update. If my tool cannot schedule anything, say so and tell me to run refresh myself each Monday.
+    Then say, in one line, that a schedule is not proof the run works, and to open the dashboard on the first Monday it is scheduled to run and run refresh myself if it did not update. If the schedule cannot be set to every other week, a weekly run works too: refresh reads the last two full weeks unless I ask for another period, and updates the files only when they are due. If my tool cannot schedule anything, say so and tell me to run refresh myself every other Monday.
 
 ## Running it again
 
